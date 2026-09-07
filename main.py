@@ -5,43 +5,6 @@ import re
 import aiohttp
 from playwright.async_api import async_playwright
 
-async def get_sub_stream_link(master_url):
-    """মাস্টার লিংক থেকে সবচেয়ে কম রেজুলেশন (যেমন 144p বা সর্বনিম্ন ব্যান্ডউইথ) সাব-লিংক বের করার ফাংশন"""
-    try:
-        async with aiohttp.ClientSession() as session:
-            async with session.get(master_url, timeout=10) as response:
-                if response.status == 200:
-                    content = await response.text()
-                    lines = content.splitlines()
-                    base_url = master_url.rsplit('/', 1)[0]
-                    
-                    streams = []
-                    current_bandwidth = 0
-                    
-                    for i, line in enumerate(lines):
-                        if line.startswith("#EXT-X-STREAM-INF"):
-                            # ব্যান্ডউইথ বের করা হচ্ছে সাজানোর জন্য
-                            bw_match = re.search(r'BANDWIDTH=(\d+)', line)
-                            if bw_match:
-                                current_bandwidth = int(bw_match.group(1))
-                            else:
-                                current_bandwidth = 0
-                                
-                            if i + 1 < len(lines):
-                                sub_path = lines[i + 1].strip()
-                                if sub_path and not sub_path.startswith("#"):
-                                    full_url = sub_path if sub_path.startswith("http") else f"{base_url}/{sub_path}"
-                                    streams.append((current_bandwidth, full_url))
-                    
-                    # ব্যান্ডউইথ অনুযায়ী ছোট থেকে বড় (Lowest to Highest) সাজানো হচ্ছে, যাতে সবচেয়ে কম রেজুলেশন (144p ইত্যাদি) আগে আসে
-                    if streams:
-                        streams.sort(key=lambda x: x[0])
-                        return streams[0][1]
-    except Exception as e:
-        print(f"🟡 Error fetching sub-link: {str(e)}")
-    
-    return master_url
-
 async def scrape_webpage():
     target_url = "https://www.fancode.com/bd/live-now/all-sports"
     main_playlist_file = "playlist.m3u"
@@ -147,28 +110,74 @@ async def scrape_webpage():
                 match_page = await match_context.new_page()
                 
                 captured_links = []
-                match_page.on("request", lambda req: captured_links.append(req.url) if "index.m3u8" in req.url else None)
+                # মাস্টার লিঙ্কের পাশাপাশি বা পরিবর্তে সরাসরি .m3u8 রিকোয়েস্টগুলো ট্র্যাক করা হচ্ছে যা index ছাড়া বা সাব-লিংক হতে পারে
+                match_page.on("request", lambda req: captured_links.append(req.url) if ".m3u8" in req.url else None)
                 
                 try:
                     await match_page.goto(m_url, wait_until="domcontentloaded", timeout=30000)
-                    await asyncio.sleep(12)
+                    await asyncio.sleep(10)
+                    
+                    # ভিডিও প্লে করার জন্য স্ক্রিনে বা প্লে বাটনে ক্লিক সিমুলেট করা হচ্ছে
+                    print("🟡 Trying to click play / video area to trigger sub-streams...")
+                    try:
+                        # প্লেয়ার বা ভিডিও এলিমেন্টে ক্লিক করার চেষ্টা
+                        await match_page.click("video", timeout=5000)
+                    except:
+                        try:
+                            # যদি ভিডিও ট্যাগ সরাসরি না পায়, পেজের মাঝে ক্লিক করবে
+                            await match_page.mouse.click(200, 300)
+                        except Exception as click_err:
+                            print(f"🟡 Click warning: {str(click_err)}")
+                    
+                    # প্লে হওয়ার পর সাব-লিংক লোড হওয়ার জন্য আরও কিছু সময় অপেক্ষা
+                    await asyncio.sleep(8)
+                    
+                    # কোয়ালিটি বা সেটিংস অপশন ওপেন করে লো রেজুলেশন ট্রিগার করার জন্য এক্সট্রা ক্লিক হ্যান্ডলিং (যদি থাকে)
+                    try:
+                        settings_btn = match_page.locator("button[aria-label*='Settings'], .vjs-settings-button, text=Quality").first
+                        if await settings_btn.is_visible(timeout=3000):
+                            await settings_btn.click()
+                            await asyncio.sleep(2)
+                    except:
+                        pass
+
                 except Exception as e:
                     print(f"🟡 Match page error: {str(e)}")
                 
-                master_link = next((l for l in captured_links if "index.m3u8" in l), None)
+                # লজিক পরিবর্তন: মাস্টার লিংক (index.m3u8) বাদ দিয়ে বা ফিল্টার করে সাব-লিংক বা ছোট রেজুলেশন লিংক খোঁজা
+                sub_links = [l for l in captured_links if ".m3u8" in l and "index.m3u8" not in l]
                 
-                if not master_link:
-                    print(f"🔴 Master playlist link not found for: {m_title}. Skipping.")
-                    status_messages.append(f"🔴 Skipped (No Master Link): {m_title}")
+                final_stream_link = None
+                if sub_links:
+                    # সাব-লিংকগুলোর ভেতর থেকে সবচেয়ে ছোট বা প্রথম সাব-লিংকটি নেওয়া হচ্ছে (যেমন 144p/240p ভ্যারিয়েন্ট)
+                    final_stream_link = sub_links[0]
+                else:
+                    # যদি শুধু মাস্টার লিংক থাকে, তবে ফলের ব্যাকআপ হিসেবে সেটিই নিবে
+                    master_fallback = next((l for l in captured_links if "index.m3u8" in l), None)
+                    if master_fallback:
+                        # মাস্টার লিংক পেলে সেটিকে ফেচ করে সাব-লিংক বের করার ব্যাকআপ চেষ্টা
+                        try:
+                            async with aiohttp.ClientSession() as session:
+                                async with session.get(master_fallback, timeout=5) as resp:
+                                    if resp.status == 200:
+                                        text_content = await resp.text()
+                                        for line in text_content.splitlines():
+                                            if line and not line.startswith("#"):
+                                                base = master_fallback.rsplit('/', 1)[0]
+                                                final_stream_link = line if line.startswith("http") else f"{base}/{line}"
+                                                break
+                        except:
+                            pass
+                        if not final_stream_link:
+                            final_stream_link = master_fallback
+
+                if not final_stream_link:
+                    print(f"🔴 Sub-stream playlist link not found for: {m_title}. Skipping.")
+                    status_messages.append(f"🔴 Skipped (No Sub Link): {m_title}")
                     await match_browser.close()
                     continue
                 
-                print(f"🟢 Captured Master Link: {master_link}")
-                
-                # মাস্টার লিংক থেকে সর্বনিম্ন রেজুলেশনের সাব-লিংক বের করা হচ্ছে
-                print(f"🟡 Extracting Lowest Resolution Sub-Stream link for: {m_title}...")
-                final_stream_link = await get_sub_stream_link(master_link)
-                print(f"🟢 Captured Lowest Sub-Stream Link: {final_stream_link}")
+                print(f"🟢 Captured Sub-Stream Link: {final_stream_link}")
                 
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
@@ -226,7 +235,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with lowest resolution sub-stream links.")
+        print("🟢 Process completed successfully! playlist.m3u updated with click-triggered sub-stream links.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
