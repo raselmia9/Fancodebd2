@@ -89,17 +89,16 @@ async def scrape_webpage():
                 m_url = match['href']
                 m_logo = match['logo']
                 
-                # ১. অপ্রয়োজনীয় হাইফেন বা ড্যাশ পরিষ্কার করা
+                # হাইফেন এবং স্পেস ক্লিন করা
                 cleaned_title = re.sub(r'[-–—]', ' ', raw_title)
                 cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
                 
-                # ২. অতিরিক্ত টুর্নামেন্টের নাম ছোট বা বাদ দিয়ে শুধু মূল ম্যাচের টিম নেম রাখার ব্যবস্থা বা ক্লিন টাইটেল তৈরি
-                # (যেমন: অতিরিক্ত লেখা বাদ দিয়ে একদম নিখুঁত নাম রাখা)
-                m_title_normal = cleaned_title # এটি প্লেলিস্টের জন্য (যেখানে স্পেস থাকবে)
+                # প্লেলিস্টের জন্য স্বাভাবিক টাইটেল (যেখানে স্পেস থাকবে)
+                m_title_normal = cleaned_title
                 
-                # ৩. JSON ও লিংকের জন্য স্লাগ তৈরি (যেখানে কোনো স্পেস থাকবে না, সব স্পেসের বদলে '_' হবে)
-                safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', cleaned_title)
-                safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
+                # JSON এবং লিংকের জন্য টাইটেল স্লাগ (যেখানে কোনো স্পেস থাকবে না, সব স্পেসের বদলে '_' হবে)
+                json_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', cleaned_title)
+                json_title_slug = re.sub(r'_+', '_', json_title_slug).strip('_')
                 
                 print(f"🟡 Processing: {m_title_normal}")
                 
@@ -140,7 +139,7 @@ async def scrape_webpage():
                 
                 print(f"🟢 Captured Master Link: {master_link}")
                 
-                match_file_name = f"match_{index + 1}_{safe_title_slug}.m3u8"
+                match_file_name = f"match_{index + 1}_{json_title_slug}.m3u8"
                 match_file_path = os.path.join(row_link_folder, match_file_name)
                 
                 sub_file_content = [
@@ -152,19 +151,19 @@ async def scrape_webpage():
                 with open(match_file_path, "w", encoding="utf-8") as sf:
                     sf.write("\n".join(sub_file_content))
                 
-                # JSON ফাইলের ডেটা (যেখানে কোনো স্পেস বা হাইফেনের ঝামেলা নেই, স্লাগ ফরম্যাটে সংরক্ষিত)
-                json_data_store[safe_title_slug] = {
-                    "title": m_title_normal,
+                # 🛑 JSON ফাইলের ভেতরে এখন একদম নিখুঁতভাবে শুধু এই ৩টি ফিল্ড থাকবে এবং টাইটেলে কোনো স্পেস থাকবে না (_ হবে)
+                json_data_store[json_title_slug] = {
+                    "title": json_title_slug,
                     "logo": m_logo,
                     "master_link": master_link
                 }
                 
                 status_messages.append(f"🟢 Success: {m_title_normal}")
                 
-                # ক্লাউডফ্লেয়ার ওয়ার্কারের লিংক (যেখানে স্লাগ ব্যবহৃত হবে)
-                worker_match_url = f"{cloudflare_worker_base}?match={safe_title_slug}.m3u8"
+                # ক্লাউডফ্লেয়ার ওয়ার্কারের লিংক
+                worker_match_url = f"{cloudflare_worker_base}?match={json_title_slug}.m3u8"
                 
-                # মূল playlist.m3u ফাইলের টাইটেলে স্বাভাবিক স্পেস থাকবে
+                # প্লেলিস্টের টাইটেলে স্পেস থাকতে পারবে
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title_normal}')
                 main_m3u_output.append(worker_match_url)
                 
