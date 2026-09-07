@@ -16,7 +16,6 @@ async def scrape_webpage():
     # আপনার ক্লাউডফ্লেয়ার ওয়ার্কারের বেজ ইউআরএল এখানে বসিয়ে দেবেন
     cloudflare_worker_base = "https://your-worker.workers.dev"
     
-    # Row_Link ফোল্ডার পরিষ্কার করা বা তৈরি করা
     if os.path.exists(row_link_folder):
         for old_file in os.listdir(row_link_folder):
             old_file_path = os.path.join(row_link_folder, old_file)
@@ -86,9 +85,20 @@ async def scrape_webpage():
             status_messages.append("🔴 No matches found on main page.")
         else:
             for index, match in enumerate(matches):
-                m_title = match['title']
+                raw_title = match['title']
                 m_url = match['href']
                 m_logo = match['logo']
+                
+                # টাইটেল থেকে সমস্ত হাইফেন (-) এবং স্পেস ক্লিন করে আন্ডারস্কোর (_) বসানো
+                cleaned_title = re.sub(r'[-–—]', ' ', raw_title)
+                cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
+                
+                safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', cleaned_title)
+                safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
+                
+                # প্লেলিস্টে দেখানোর জন্য টাইটেলটিকে আবার সুন্দর সাধারণ স্পেসযুক্ত ফরম্যাটে রাখা যেতে পারে অথবা ক্লিন রাখতে পারেন
+                m_title = cleaned_title
+                
                 print(f"🟡 Processing: {m_title}")
                 
                 match_browser = await p.chromium.launch(headless=True)
@@ -128,11 +138,6 @@ async def scrape_webpage():
                 
                 print(f"🟢 Captured Master Link: {master_link}")
                 
-                # টাইটেল থেকে হাইফেন ও অন্যান্য স্পেশাল ক্যারেক্টার রিমুভ করে ক্লিন স্লাগ তৈরি
-                safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
-                safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
-                
-                # ব্যক্তিগত ফোল্ডারের ব্যাকআপ ফাইল তৈরি
                 match_file_name = f"match_{index + 1}_{safe_title_slug}.m3u8"
                 match_file_path = os.path.join(row_link_folder, match_file_name)
                 
@@ -145,7 +150,7 @@ async def scrape_webpage():
                 with open(match_file_path, "w", encoding="utf-8") as sf:
                     sf.write("\n".join(sub_file_content))
                 
-                # JSON ফাইলের জন্য ডেটা স্টোর (টাইটেল, লোগো এবং মাস্টার লিংক)
+                # JSON ফাইলের জন্য ডেটা স্টোর
                 json_data_store[safe_title_slug] = {
                     "title": m_title,
                     "logo": m_logo,
@@ -154,7 +159,6 @@ async def scrape_webpage():
                 
                 status_messages.append(f"🟢 Success: {m_title}")
                 
-                # মূল playlist.m3u ফাইলের জন্য ক্লাউডফ্লেয়ার ওয়ার্কার লিংক ফরম্যাট
                 worker_match_url = f"{cloudflare_worker_base}?match={safe_title_slug}.m3u8"
                 
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
@@ -164,19 +168,15 @@ async def scrape_webpage():
                 
                 await match_browser.close()
 
-        # ১. playlist.m3u ফাইল তৈরি
         with open(main_playlist_file, "w", encoding="utf-8") as f:
             f.write("\n".join(main_m3u_output))
             
-        # ২. links.json ফাইল তৈরি (মাস্টার লিংক, টাইটل এবং লোগো সহ)
         with open(json_links_file, "w", encoding="utf-8") as jf:
             json.dump(json_data_store, jf, indent=4, ensure_ascii=False)
             
-        # ৩. status.txt ফাইল তৈরি
         with open(status_file, "w", encoding="utf-8") as sf:
             sf.write("\n".join(status_messages) if status_messages else "🔴 No status recorded.")
 
-        # ৪. Index.html ফাইল তৈরি
         html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
