@@ -6,7 +6,7 @@ import aiohttp
 from playwright.async_api import async_playwright
 
 async def get_sub_stream_link(master_url):
-    """মাস্টার লিংক থেকে ফেচ করে সেরা সাব-লিংক (Resolution link) বের করার ফাংশন"""
+    """মাস্টার লিংক থেকে সবচেয়ে কম রেজুলেশন (যেমন 144p বা সর্বনিম্ন ব্যান্ডউইথ) সাব-লিংক বের করার ফাংশন"""
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(master_url, timeout=10) as response:
@@ -15,25 +15,31 @@ async def get_sub_stream_link(master_url):
                     lines = content.splitlines()
                     base_url = master_url.rsplit('/', 1)[0]
                     
-                    sub_links = []
+                    streams = []
+                    current_bandwidth = 0
+                    
                     for i, line in enumerate(lines):
                         if line.startswith("#EXT-X-STREAM-INF"):
-                            # এর পরের লাইনটি হলো সাব-লিংক বা স্ট্রিম পাথ
+                            # ব্যান্ডউইথ বের করা হচ্ছে সাজানোর জন্য
+                            bw_match = re.search(r'BANDWIDTH=(\d+)', line)
+                            if bw_match:
+                                current_bandwidth = int(bw_match.group(1))
+                            else:
+                                current_bandwidth = 0
+                                
                             if i + 1 < len(lines):
                                 sub_path = lines[i + 1].strip()
                                 if sub_path and not sub_path.startswith("#"):
-                                    if sub_path.startswith("http"):
-                                        sub_links.append(sub_path)
-                                    else:
-                                        sub_links.append(f"{base_url}/{sub_path}")
+                                    full_url = sub_path if sub_path.startswith("http") else f"{base_url}/{sub_path}"
+                                    streams.append((current_bandwidth, full_url))
                     
-                    # যদি সাব-লিংক পাওয়া যায়, তবে প্রথম বা সর্বোচ্চ রেজুলেশন লিংকটি রিটার্ন করবে
-                    if sub_links:
-                        return sub_links[0]
+                    # ব্যান্ডউইথ অনুযায়ী ছোট থেকে বড় (Lowest to Highest) সাজানো হচ্ছে, যাতে সবচেয়ে কম রেজুলেশন (144p ইত্যাদি) আগে আসে
+                    if streams:
+                        streams.sort(key=lambda x: x[0])
+                        return streams[0][1]
     except Exception as e:
         print(f"🟡 Error fetching sub-link: {str(e)}")
     
-    # সাব-লিংক বের করতে ব্যর্থ হলে ব্যাকআপ হিসেবে মাস্টার লিংকই রিটার্ন করবে
     return master_url
 
 async def scrape_webpage():
@@ -159,17 +165,16 @@ async def scrape_webpage():
                 
                 print(f"🟢 Captured Master Link: {master_link}")
                 
-                # নতুন যুক্ত করা হয়েছে: মাস্টার লিংক থেকে সাব-লিংক (Resolution Link) বের করা হচ্ছে
-                print(f"🟡 Extracting Sub-Stream link for: {m_title}...")
+                # মাস্টার লিংক থেকে সর্বনিম্ন রেজুলেশনের সাব-লিংক বের করা হচ্ছে
+                print(f"🟡 Extracting Lowest Resolution Sub-Stream link for: {m_title}...")
                 final_stream_link = await get_sub_stream_link(master_link)
-                print(f"🟢 Captured Sub-Stream Link: {final_stream_link}")
+                print(f"🟢 Captured Lowest Sub-Stream Link: {final_stream_link}")
                 
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
                 match_file_name = f"match_{index + 1}_{safe_title_slug}.m3u8"
                 match_file_path = os.path.join(row_link_folder, match_file_name)
                 
-                # Row_Link ফোল্ডারের ফাইলের গঠন অপরিবর্তিত রাখা হলো (এখানেও সাব-লিংক বসবে)
                 sub_file_content = [
                     "#EXTM3U",
                     f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}',
@@ -181,7 +186,6 @@ async def scrape_webpage():
                 
                 status_messages.append(f"🟢 Success: {m_title}")
                 
-                # playlist.m3u ফাইলের জন্য সরাসরি সাব-লিংক বসানো হলো
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
                 main_m3u_output.append(final_stream_link)
                 
@@ -222,7 +226,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with sub-stream links.")
+        print("🟢 Process completed successfully! playlist.m3u updated with lowest resolution sub-stream links.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
