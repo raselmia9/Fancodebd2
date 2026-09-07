@@ -2,7 +2,39 @@ import asyncio
 import os
 import random
 import re
+import aiohttp
 from playwright.async_api import async_playwright
+
+async def get_sub_stream_link(master_url):
+    """মাস্টার লিংক থেকে ফেচ করে সেরা সাব-লিংক (Resolution link) বের করার ফাংশন"""
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(master_url, timeout=10) as response:
+                if response.status == 200:
+                    content = await response.text()
+                    lines = content.splitlines()
+                    base_url = master_url.rsplit('/', 1)[0]
+                    
+                    sub_links = []
+                    for i, line in enumerate(lines):
+                        if line.startswith("#EXT-X-STREAM-INF"):
+                            # এর পরের লাইনটি হলো সাব-লিংক বা স্ট্রিম পাথ
+                            if i + 1 < len(lines):
+                                sub_path = lines[i + 1].strip()
+                                if sub_path and not sub_path.startswith("#"):
+                                    if sub_path.startswith("http"):
+                                        sub_links.append(sub_path)
+                                    else:
+                                        sub_links.append(f"{base_url}/{sub_path}")
+                    
+                    # যদি সাব-লিংক পাওয়া যায়, তবে প্রথম বা সর্বোচ্চ রেজুলেশন লিংকটি রিটার্ন করবে
+                    if sub_links:
+                        return sub_links[0]
+    except Exception as e:
+        print(f"🟡 Error fetching sub-link: {str(e)}")
+    
+    # সাব-লিংক বের করতে ব্যর্থ হলে ব্যাকআপ হিসেবে মাস্টার লিংকই রিটার্ন করবে
+    return master_url
 
 async def scrape_webpage():
     target_url = "https://www.fancode.com/bd/live-now/all-sports"
@@ -127,16 +159,21 @@ async def scrape_webpage():
                 
                 print(f"🟢 Captured Master Link: {master_link}")
                 
+                # নতুন যুক্ত করা হয়েছে: মাস্টার লিংক থেকে সাব-লিংক (Resolution Link) বের করা হচ্ছে
+                print(f"🟡 Extracting Sub-Stream link for: {m_title}...")
+                final_stream_link = await get_sub_stream_link(master_link)
+                print(f"🟢 Captured Sub-Stream Link: {final_stream_link}")
+                
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
                 match_file_name = f"match_{index + 1}_{safe_title_slug}.m3u8"
                 match_file_path = os.path.join(row_link_folder, match_file_name)
                 
-                # Row_Link ফোল্ডারের ফাইলের গঠন অপরিবর্তিত রাখা হলো
+                # Row_Link ফোল্ডারের ফাইলের গঠন অপরিবর্তিত রাখা হলো (এখানেও সাব-লিংক বসবে)
                 sub_file_content = [
                     "#EXTM3U",
                     f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}',
-                    master_link
+                    final_stream_link
                 ]
                 
                 with open(match_file_path, "w", encoding="utf-8") as sf:
@@ -144,15 +181,15 @@ async def scrape_webpage():
                 
                 status_messages.append(f"🟢 Success: {m_title}")
                 
-                # 🛑 পরিবর্তন: playlist.m3u ফাইলের জন্য গিটহাব র-লিংকের বদলে সরাসরি মাস্টার লিংক বসানো হলো
+                # playlist.m3u ফাইলের জন্য সরাসরি সাব-লিংক বসানো হলো
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
-                main_m3u_output.append(master_link)
+                main_m3u_output.append(final_stream_link)
                 
                 html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title}</b> -> <a href='{row_link_folder}/{match_file_name}' target='_blank'>Row File (.m3u8)</a></li>")
                 
                 await match_browser.close()
 
-        # playlist.m3u ফাইল তৈরি (এখন সরাসরি মাস্টার লিংক থাকবে)
+        # playlist.m3u ফাইল তৈরি
         with open(main_playlist_file, "w", encoding="utf-8") as f:
             f.write("\n".join(main_m3u_output))
             
@@ -185,7 +222,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with direct master links.")
+        print("🟢 Process completed successfully! playlist.m3u updated with sub-stream links.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
