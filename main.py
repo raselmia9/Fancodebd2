@@ -2,19 +2,19 @@ import asyncio
 import os
 import random
 import re
+import json
 from playwright.async_api import async_playwright
 
 async def scrape_webpage():
     target_url = "https://www.fancode.com/bd/live-now/all-sports"
     main_playlist_file = "playlist.m3u"
+    json_links_file = "links.json"
     row_link_folder = "Row_Link"
     status_file = "status.txt"
     index_file = "Index.html"
     
-    github_username = "raselmia9"
-    repo_name = "Fancodebd2"
-    branch_name = "main"
-    base_raw_url = f"https://raw.githubusercontent.com/{github_username}/{repo_name}/refs/heads/{branch_name}/{row_link_folder}"
+    # আপনার ক্লাউডফ্লেয়ার ওয়ার্কারের বেজ ইউআরএল এখানে বসিয়ে দেবেন
+    cloudflare_worker_base = "https://your-worker.workers.dev"
     
     # Row_Link ফোল্ডার পরিষ্কার করা বা তৈরি করা
     if os.path.exists(row_link_folder):
@@ -28,6 +28,7 @@ async def scrape_webpage():
     status_messages = []
     main_m3u_output = ["#EXTM3U"]
     html_match_list = []
+    json_data_store = {}
 
     device_profiles = [
         {
@@ -127,12 +128,14 @@ async def scrape_webpage():
                 
                 print(f"🟢 Captured Master Link: {master_link}")
                 
+                # টাইটেল থেকে হাইফেন ও অন্যান্য স্পেশাল ক্যারেক্টার রিমুভ করে ক্লিন স্লাগ তৈরি
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
+                
+                # ব্যক্তিগত ফোল্ডারের ব্যাকআপ ফাইল তৈরি
                 match_file_name = f"match_{index + 1}_{safe_title_slug}.m3u8"
                 match_file_path = os.path.join(row_link_folder, match_file_name)
                 
-                # Row_Link ফোল্ডারের ফাইলের গঠন অপরিবর্তিত রাখা হলো
                 sub_file_content = [
                     "#EXTM3U",
                     f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}',
@@ -142,25 +145,38 @@ async def scrape_webpage():
                 with open(match_file_path, "w", encoding="utf-8") as sf:
                     sf.write("\n".join(sub_file_content))
                 
+                # JSON ফাইলের জন্য ডেটা স্টোর (টাইটেল, লোগো এবং মাস্টার লিংক)
+                json_data_store[safe_title_slug] = {
+                    "title": m_title,
+                    "logo": m_logo,
+                    "master_link": master_link
+                }
+                
                 status_messages.append(f"🟢 Success: {m_title}")
                 
-                # 🛑 পরিবর্তন: playlist.m3u ফাইলের জন্য গিটহাব র-লিংকের বদলে সরাসরি মাস্টার লিংক বসানো হলো
-                main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
-                main_m3u_output.append(master_link)
+                # মূল playlist.m3u ফাইলের জন্য ক্লাউডফ্লেয়ার ওয়ার্কার লিংক ফরম্যাট
+                worker_match_url = f"{cloudflare_worker_base}?match={safe_title_slug}.m3u8"
                 
-                html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title}</b> -> <a href='{row_link_folder}/{match_file_name}' target='_blank'>Row File (.m3u8)</a></li>")
+                main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
+                main_m3u_output.append(worker_match_url)
+                
+                html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title}</b> -> <a href='{worker_match_url}' target='_blank'>Worker Proxy Link</a></li>")
                 
                 await match_browser.close()
 
-        # playlist.m3u ফাইল তৈরি (এখন সরাসরি মাস্টার লিংক থাকবে)
+        # ১. playlist.m3u ফাইল তৈরি
         with open(main_playlist_file, "w", encoding="utf-8") as f:
             f.write("\n".join(main_m3u_output))
             
-        # status.txt ফাইল তৈরি
+        # ২. links.json ফাইল তৈরি (মাস্টার লিংক, টাইটل এবং লোগো সহ)
+        with open(json_links_file, "w", encoding="utf-8") as jf:
+            json.dump(json_data_store, jf, indent=4, ensure_ascii=False)
+            
+        # ৩. status.txt ফাইল তৈরি
         with open(status_file, "w", encoding="utf-8") as sf:
             sf.write("\n".join(status_messages) if status_messages else "🔴 No status recorded.")
 
-        # Index.html ফাইল তৈরি
+        # ৪. Index.html ফাইল তৈরি
         html_content = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -175,8 +191,8 @@ async def scrape_webpage():
     </style>
 </head>
 <body>
-    <h1>FanCode Live Matches (Row Links Structure)</h1>
-    <p>Individual match playlist files are stored in the <code>{row_link_folder}/</code> folder with <code>.m3u8</code> extension.</p>
+    <h1>FanCode Live Matches (Cloudflare Worker Structure)</h1>
+    <p>Playlists are integrated with Cloudflare Worker proxy URLs.</p>
     <ul>
         {"".join(html_match_list) if html_match_list else "<li>No active streams found right now.</li>"}
     </ul>
@@ -185,7 +201,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with direct master links.")
+        print("🟢 Process completed successfully! playlist.m3u and links.json updated.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
