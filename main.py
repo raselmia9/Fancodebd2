@@ -13,8 +13,8 @@ async def scrape_webpage():
     status_file = "status.txt"
     index_file = "Index.html"
     
-    # আপনার ক্লাউডফ্লেয়ার ওয়ার্কারের বেজ ইউআরএল এখানে বসিয়ে দেবেন
-    cloudflare_worker_base = "https://your-worker.workers.dev"
+    # ক্লাউডফ্লেয়ার ওয়ার্কারের বেজ ইউআরএল
+    cloudflare_worker_base = "https://raselmia9.app1-01733661143.workers.dev"
     
     if os.path.exists(row_link_folder):
         for old_file in os.listdir(row_link_folder):
@@ -151,7 +151,7 @@ async def scrape_webpage():
                 with open(match_file_path, "w", encoding="utf-8") as sf:
                     sf.write("\n".join(sub_file_content))
                 
-                # 🛑 JSON ফাইলের ভেতরে এখন একদম নিখুঁতভাবে শুধু এই ৩টি ফিল্ড থাকবে এবং টাইটেলে কোনো স্পেস থাকবে না (_ হবে)
+                # JSON ফাইলের ডেটা (শুধুমাত্র এই ৩টি ফিল্ড থাকবে এবং টাইটেলে কোনো স্পেস থাকবে না)
                 json_data_store[json_title_slug] = {
                     "title": json_title_slug,
                     "logo": m_logo,
@@ -160,10 +160,10 @@ async def scrape_webpage():
                 
                 status_messages.append(f"🟢 Success: {m_title_normal}")
                 
-                # ক্লাউডফ্লেয়ার ওয়ার্কারের লিংক
+                # ক্লাউডফ্লেয়ার ওয়ার্কারের লিংক ফরম্যাট
                 worker_match_url = f"{cloudflare_worker_base}?match={json_title_slug}.m3u8"
                 
-                # প্লেলিস্টের টাইটেলে স্পেস থাকতে পারবে
+                # প্লেলিস্টের টাইটেলে স্বাভাবিক স্পেস থাকবে
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title_normal}')
                 main_m3u_output.append(worker_match_url)
                 
