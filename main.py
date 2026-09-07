@@ -89,17 +89,19 @@ async def scrape_webpage():
                 m_url = match['href']
                 m_logo = match['logo']
                 
-                # টাইটেল থেকে সমস্ত হাইফেন (-) এবং স্পেস ক্লিন করে আন্ডারস্কোর (_) বসানো
+                # ১. অপ্রয়োজনীয় হাইফেন বা ড্যাশ পরিষ্কার করা
                 cleaned_title = re.sub(r'[-–—]', ' ', raw_title)
                 cleaned_title = re.sub(r'\s+', ' ', cleaned_title).strip()
                 
+                # ২. অতিরিক্ত টুর্নামেন্টের নাম ছোট বা বাদ দিয়ে শুধু মূল ম্যাচের টিম নেম রাখার ব্যবস্থা বা ক্লিন টাইটেল তৈরি
+                # (যেমন: অতিরিক্ত লেখা বাদ দিয়ে একদম নিখুঁত নাম রাখা)
+                m_title_normal = cleaned_title # এটি প্লেলিস্টের জন্য (যেখানে স্পেস থাকবে)
+                
+                # ৩. JSON ও লিংকের জন্য স্লাগ তৈরি (যেখানে কোনো স্পেস থাকবে না, সব স্পেসের বদলে '_' হবে)
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', cleaned_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
                 
-                # প্লেলিস্টে দেখানোর জন্য টাইটেলটিকে আবার সুন্দর সাধারণ স্পেসযুক্ত ফরম্যাটে রাখা যেতে পারে অথবা ক্লিন রাখতে পারেন
-                m_title = cleaned_title
-                
-                print(f"🟡 Processing: {m_title}")
+                print(f"🟡 Processing: {m_title_normal}")
                 
                 match_browser = await p.chromium.launch(headless=True)
                 unique_device = random.choice(device_profiles)
@@ -131,8 +133,8 @@ async def scrape_webpage():
                 master_link = next((l for l in captured_links if "index.m3u8" in l), None)
                 
                 if not master_link:
-                    print(f"🔴 Master playlist link not found for: {m_title}. Skipping.")
-                    status_messages.append(f"🔴 Skipped (No Master Link): {m_title}")
+                    print(f"🔴 Master playlist link not found for: {m_title_normal}. Skipping.")
+                    status_messages.append(f"🔴 Skipped (No Master Link): {m_title_normal}")
                     await match_browser.close()
                     continue
                 
@@ -143,28 +145,30 @@ async def scrape_webpage():
                 
                 sub_file_content = [
                     "#EXTM3U",
-                    f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}',
+                    f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title_normal}',
                     master_link
                 ]
                 
                 with open(match_file_path, "w", encoding="utf-8") as sf:
                     sf.write("\n".join(sub_file_content))
                 
-                # JSON ফাইলের জন্য ডেটা স্টোর
+                # JSON ফাইলের ডেটা (যেখানে কোনো স্পেস বা হাইফেনের ঝামেলা নেই, স্লাগ ফরম্যাটে সংরক্ষিত)
                 json_data_store[safe_title_slug] = {
-                    "title": m_title,
+                    "title": m_title_normal,
                     "logo": m_logo,
                     "master_link": master_link
                 }
                 
-                status_messages.append(f"🟢 Success: {m_title}")
+                status_messages.append(f"🟢 Success: {m_title_normal}")
                 
+                # ক্লাউডফ্লেয়ার ওয়ার্কারের লিংক (যেখানে স্লাগ ব্যবহৃত হবে)
                 worker_match_url = f"{cloudflare_worker_base}?match={safe_title_slug}.m3u8"
                 
-                main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
+                # মূল playlist.m3u ফাইলের টাইটেলে স্বাভাবিক স্পেস থাকবে
+                main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title_normal}')
                 main_m3u_output.append(worker_match_url)
                 
-                html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title}</b> -> <a href='{worker_match_url}' target='_blank'>Worker Proxy Link</a></li>")
+                html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title_normal}</b> -> <a href='{worker_match_url}' target='_blank'>Worker Proxy Link</a></li>")
                 
                 await match_browser.close()
 
