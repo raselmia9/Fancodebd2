@@ -24,7 +24,7 @@ jobs:
           playwright install chromium
 
       - name: Run Scraper Script
-        run: python scraper.py # আপনার পাইথন ফাইলের নাম যদি অন্য কিছু হয় তবে তা এখানে দিয়ে দেবেন
+        run: python main.py # আপনার পাইথন ফাইলের নাম যদি অন্য কিছু হয় তবে তা এখানে দিয়ে দেবেন
 
       - name: Commit and Push Changes
         run: |
