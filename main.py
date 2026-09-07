@@ -110,74 +110,75 @@ async def scrape_webpage():
                 match_page = await match_context.new_page()
                 
                 captured_links = []
-                # মাস্টার লিঙ্কের পাশাপাশি বা পরিবর্তে সরাসরি .m3u8 রিকোয়েস্টগুলো ট্র্যাক করা হচ্ছে যা index ছাড়া বা সাব-লিংক হতে পারে
+                # সরাসরি সমস্ত .m3u8 রিকোয়েস্ট ট্র্যাক করা হচ্ছে, তবে মাস্টারের পাশাপাশি আসল সাব-লিংক খোঁজার জন্য
                 match_page.on("request", lambda req: captured_links.append(req.url) if ".m3u8" in req.url else None)
                 
                 try:
                     await match_page.goto(m_url, wait_until="domcontentloaded", timeout=30000)
+                    # আপনার নির্দেশ অনুযায়ী ভিডিও প্লেয়ার পেজে পর্যাপ্ত সময় (মোটামুটি ৩০-৪০ সেকেন্ড বা তার বেশি) অপেক্ষা এবং ক্লিক হ্যান্ডলিং
+                    print("🟡 Waiting for video player and clicking to trigger sub-streams...")
                     await asyncio.sleep(10)
                     
-                    # ভিডিও প্লে করার জন্য স্ক্রিনে বা প্লে বাটনে ক্লিক সিমুলেট করা হচ্ছে
-                    print("🟡 Trying to click play / video area to trigger sub-streams...")
                     try:
-                        # প্লেয়ার বা ভিডিও এলিমেন্টে ক্লিক করার চেষ্টা
                         await match_page.click("video", timeout=5000)
                     except:
                         try:
-                            # যদি ভিডিও ট্যাগ সরাসরি না পায়, পেজের মাঝে ক্লিক করবে
-                            await match_page.mouse.click(200, 300)
-                        except Exception as click_err:
-                            print(f"🟡 Click warning: {str(click_err)}")
+                            await match_page.mouse.click(250, 350)
+                        except:
+                            pass
                     
-                    # প্লে হওয়ার পর সাব-লিংক লোড হওয়ার জন্য আরও কিছু সময় অপেক্ষা
-                    await asyncio.sleep(8)
+                    # সাব-লিংক পুরোপুরি জেনারেট হওয়ার জন্য আরও সময় অপেক্ষা করা হচ্ছে
+                    await asyncio.sleep(20)
                     
-                    # কোয়ালিটি বা সেটিংস অপশন ওপেন করে লো রেজুলেশন ট্রিগার করার জন্য এক্সট্রা ক্লিক হ্যান্ডলিং (যদি থাকে)
-                    try:
-                        settings_btn = match_page.locator("button[aria-label*='Settings'], .vjs-settings-button, text=Quality").first
-                        if await settings_btn.is_visible(timeout=3000):
-                            await settings_btn.click()
-                            await asyncio.sleep(2)
-                    except:
-                        pass
-
                 except Exception as e:
                     print(f"🟡 Match page error: {str(e)}")
                 
-                # লজিক পরিবর্তন: মাস্টার লিংক (index.m3u8) বাদ দিয়ে বা ফিল্টার করে সাব-লিংক বা ছোট রেজুলেশন লিংক খোঁজা
-                sub_links = [l for l in captured_links if ".m3u8" in l and "index.m3u8" not in l]
+                # 🛑 মূল পরিবর্তন: 'index.m3u8' যুক্ত লিংকগুলোকে বাদ দিয়ে শুধু আসল সাব-লিংক বা অন্য .m3u8 ফাইল ফিল্টার করা
+                pure_sub_links = [l for l in captured_links if "index.m3u8" not in l and ".m3u8" in l]
                 
                 final_stream_link = None
-                if sub_links:
-                    # সাব-লিংকগুলোর ভেতর থেকে সবচেয়ে ছোট বা প্রথম সাব-লিংকটি নেওয়া হচ্ছে (যেমন 144p/240p ভ্যারিয়েন্ট)
-                    final_stream_link = sub_links[0]
+                if pure_sub_links:
+                    # যদি সরাসরি সাব-লিংক পাওয়া যায়
+                    final_stream_link = pure_sub_links[0]
                 else:
-                    # যদি শুধু মাস্টার লিংক থাকে, তবে ফলের ব্যাকআপ হিসেবে সেটিই নিবে
+                    # যদি শুধু মাস্টার লিংক পাওয়া যায়, তবে সেটির ভেতরে রিকোয়েস্ট পাঠিয়ে সাব-লিংক বের করার চেষ্টা
                     master_fallback = next((l for l in captured_links if "index.m3u8" in l), None)
                     if master_fallback:
-                        # মাস্টার লিংক পেলে সেটিকে ফেচ করে সাব-লিংক বের করার ব্যাকআপ চেষ্টা
+                        print("🟡 Master link found, fetching inner sub-links...")
                         try:
                             async with aiohttp.ClientSession() as session:
-                                async with session.get(master_fallback, timeout=5) as resp:
+                                async with session.get(master_fallback, timeout=10) as resp:
                                     if resp.status == 200:
-                                        text_content = await resp.text()
-                                        for line in text_content.splitlines():
-                                            if line and not line.startswith("#"):
-                                                base = master_fallback.rsplit('/', 1)[0]
-                                                final_stream_link = line if line.startswith("http") else f"{base}/{line}"
-                                                break
-                        except:
-                            pass
+                                        content = await resp.text()
+                                        lines = content.splitlines()
+                                        base_url = master_fallback.rsplit('/', 1)[0]
+                                        
+                                        sub_candidates = []
+                                        for i, line in enumerate(lines):
+                                            if line.startswith("#EXT-X-STREAM-INF"):
+                                                if i + 1 < len(lines):
+                                                    sub_path = lines[i + 1].strip()
+                                                    if sub_path and not sub_path.startswith("#"):
+                                                        full_sub = sub_path if sub_path.startswith("http") else f"{base_url}/{sub_path}"
+                                                        sub_candidates.append(full_sub)
+                                        
+                                        if sub_candidates:
+                                            # সবচেয়ে কম রেজুলেশন বা প্রথম সাব-লিংকটি সিলেক্ট করা হলো
+                                            final_stream_link = sub_candidates[0]
+                        except Exception as inner_err:
+                            print(f"🟡 Inner fetch error: {str(inner_err)}")
+                        
+                        # যদি ফেচ না করা যায়, তবে শেষ ভরসা হিসেবে মাস্টার লিংক ব্যাকআপ রাখবে না পেয়ে অন্য কিছু খুঁজবে
                         if not final_stream_link:
                             final_stream_link = master_fallback
 
                 if not final_stream_link:
-                    print(f"🔴 Sub-stream playlist link not found for: {m_title}. Skipping.")
+                    print(f"🔴 Sub-stream link not found for: {m_title}. Skipping.")
                     status_messages.append(f"🔴 Skipped (No Sub Link): {m_title}")
                     await match_browser.close()
                     continue
                 
-                print(f"🟢 Captured Sub-Stream Link: {final_stream_link}")
+                print(f"🟢 Captured True Sub-Stream Link: {final_stream_link}")
                 
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
@@ -235,7 +236,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with click-triggered sub-stream links.")
+        print("🟢 Process completed successfully! playlist.m3u updated with sub-stream links.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
