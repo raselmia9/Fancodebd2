@@ -1,3 +1,7 @@
+আমি তোমাকে একটা পাইথন স্কিপ দিচ্ছি এটাতে অন্য কোন স্ট্যাটাস কোন কিছুই তুমি ডিলিট করবে না শুধুমাত্র আমি ছোট্ট একটা পরিবর্তন চাচ্ছি 
+আমাদের এখন ভিডিও স্ট্রিমিং মাস্টার লিংক আউটপুট হচ্ছে 
+আমি চাই সময় যতটুকু লাগে লাগুক কিন্তু আমাদের ভিডিও স্ট্রিমিং সাব লিংক দরকার 
+
 import asyncio
 import os
 import random
@@ -105,71 +109,27 @@ async def scrape_webpage():
                     permissions=["geolocation"]
                 )
                 
-                # রিয়েল ব্রাউজার হিসেবে প্রুফ করার জন্য অ্যান্টি-বট স্ক্রিপ্ট
-                await match_context.add_init_script("""
-                    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-                    window.navigator.chrome = { runtime: {} };
-                    Object.defineProperty(navigator, 'languages', { get: () => ['en-US', 'en', 'bn'] });
-                    Object.defineProperty(navigator, 'plugins', { get: () => [1, 2, 3, 4, 5] });
-                """)
-                
+                await match_context.add_init_script("Object.defineProperty(navigator, 'webdriver', { get: () => undefined });")
                 match_page = await match_context.new_page()
                 
                 captured_links = []
-                # সরাসরি সাব-লিংক (.m3u8 ফাইল যেগুলো ইডেক্স বা অন্য রেজুলেশন যেমন 240p/360p ধারণ করে) ক্যাপচার করা
-                match_page.on("request", lambda req: captured_links.append(req.url) if ".m3u8" in req.url else None)
+                match_page.on("request", lambda req: captured_links.append(req.url) if "index.m3u8" in req.url else None)
                 
                 try:
-                    await match_page.goto(m_url, wait_until="domcontentloaded", timeout=40000)
-                    
-                    # মানুষের মতো আচরণ ও রিয়েল ব্রাউজার লোডিংয়ের জন্য পর্যাপ্ত সময় অপেক্ষা (যাতে অ্যান্টি-বট বাইপাস হয়ে প্লেয়ার লোড হয়)
-                    print("🟡 Waiting for player security check and video to load...")
-                    await asyncio.sleep(15)
-                    
-                    # পেজে হালকা স্ক্রোল এবং ভিডিও প্লে করার জন্য ক্লিক সিমুলেশন
-                    await match_page.evaluate("window.scrollTo(0, 300);")
-                    await asyncio.sleep(5)
-                    
-                    try:
-                        await match_page.click("video", timeout=5000)
-                    except:
-                        try:
-                            await match_page.mouse.click(200, 300)
-                        except:
-                            pass
-                    
-                    # সাব-লিংকগুলো পুরোপুরি জেনারেট হওয়ার জন্য আরও বেশি সময় (যেমন ২৫ সেকেন্ড) অপেক্ষা
-                    print("🟡 Waiting for sub-stream links to trigger...")
-                    await asyncio.sleep(25)
-                    
+                    await match_page.goto(m_url, wait_until="domcontentloaded", timeout=30000)
+                    await asyncio.sleep(12)
                 except Exception as e:
                     print(f"🟡 Match page error: {str(e)}")
                 
-                # অগ্রাধিকার ভিত্তিতে সাব-লিংক খোঁজা (প্রথমে 240p, তারপর অন্য রেজুলেশন, মাস্টার লিংক বাদ দিয়ে)
-                sub_links = [l for l in captured_links if ".m3u8" in l and "index.m3u8" not in l]
+                master_link = next((l for l in captured_links if "index.m3u8" in l), None)
                 
-                final_sub_link = None
-                # যদি নির্দিষ্ট রেজুলেশন (যেমন 240p) থাকে তা আগে খোঁজা
-                for link in sub_links:
-                    if "240p" in link or "360p" in link:
-                        final_sub_link = link
-                        break
-                
-                # যদি স্পেসিফিক রেজুলেশন না পাওয়া যায়, তবে যেকোনো সাব-লিংক নেওয়া
-                if not final_sub_link and sub_links:
-                    final_sub_link = sub_links[0]
-                
-                # যদি কোনো সাব-লিংক না মিলে, তবে শেষ বিকল্প হিসেবে মাস্টার লিংক চেক করা
-                if not final_sub_link:
-                    final_sub_link = next((l for l in captured_links if "index.m3u8" in l), None)
-                
-                if not final_sub_link:
-                    print(f"🔴 Sub-stream playlist link not found for: {m_title}. Skipping.")
-                    status_messages.append(f"🔴 Skipped (No Sub Link): {m_title}")
+                if not master_link:
+                    print(f"🔴 Master playlist link not found for: {m_title}. Skipping.")
+                    status_messages.append(f"🔴 Skipped (No Master Link): {m_title}")
                     await match_browser.close()
                     continue
                 
-                print(f"🟢 Captured Target Sub-Link: {final_sub_link}")
+                print(f"🟢 Captured Master Link: {master_link}")
                 
                 safe_title_slug = re.sub(r'[^a-zA-Z0-9]', '_', m_title)
                 safe_title_slug = re.sub(r'_+', '_', safe_title_slug).strip('_')
@@ -180,7 +140,7 @@ async def scrape_webpage():
                 sub_file_content = [
                     "#EXTM3U",
                     f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}',
-                    final_sub_link
+                    master_link
                 ]
                 
                 with open(match_file_path, "w", encoding="utf-8") as sf:
@@ -188,15 +148,15 @@ async def scrape_webpage():
                 
                 status_messages.append(f"🟢 Success: {m_title}")
                 
-                # playlist.m3u ফাইলের জন্য সাব-লিংক বসানো হলো
+                # 🛑 পরিবর্তন: playlist.m3u ফাইলের জন্য গিটহাব র-লিংকের বদলে সরাসরি মাস্টার লিংক বসানো হলো
                 main_m3u_output.append(f'#EXTINF:-1 tvg-logo="{m_logo}" group-title="FanCode",{m_title}')
-                main_m3u_output.append(final_sub_link)
+                main_m3u_output.append(master_link)
                 
                 html_match_list.append(f"<li><img src='{m_logo}' width='30' style='vertical-align:middle;margin-right:8px;'><b>{m_title}</b> -> <a href='{row_link_folder}/{match_file_name}' target='_blank'>Row File (.m3u8)</a></li>")
                 
                 await match_browser.close()
 
-        # playlist.m3u ফাইল তৈরি
+        # playlist.m3u ফাইল তৈরি (এখন সরাসরি মাস্টার লিংক থাকবে)
         with open(main_playlist_file, "w", encoding="utf-8") as f:
             f.write("\n".join(main_m3u_output))
             
@@ -229,7 +189,7 @@ async def scrape_webpage():
         with open(index_file, "w", encoding="utf-8") as hf:
             hf.write(html_content)
             
-        print("🟢 Process completed successfully! playlist.m3u updated with sub-stream links.")
+        print("🟢 Process completed successfully! playlist.m3u updated with direct master links.")
 
 if __name__ == "__main__":
     asyncio.run(scrape_webpage())
