@@ -1,15 +1,13 @@
-name: Scrape Webpage
+name: Run FanCode Scraper
 
 on:
-  workflow_dispatch: # এটি ম্যানুয়ালি গিটহব থেকে রান করার সুবিধা দেবে
+  schedule:
+    - cron: '*/5 * * * *' # প্রতি ৫ মিনিট পর পর রান করার জন্য
+  workflow_dispatch:
 
 jobs:
-  scrape:
+  build:
     runs-on: ubuntu-latest
-
-    # গিটহবে ফাইল পুশ করার জন্য পারমিশন দিতে হবে
-    permissions:
-      contents: write
 
     steps:
       - name: Checkout repository
@@ -22,20 +20,16 @@ jobs:
 
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install playwright
+          playwright install chromium
 
-      - name: Install Playwright Browsers
-        run: playwright install --with-deps chromium
+      - name: Run Scraper Script
+        run: python scraper.py # আপনার পাইথন ফাইলের নাম যদি অন্য কিছু হয় তবে তা এখানে দিয়ে দেবেন
 
-      - name: Run Python Script
-        run: python main.py
-
-      # Row_Link ফোল্ডারসহ সব ফাইল গিটহব রিপোজটরিতে সেভ (Commit & Push) করার জন্য আপডেট করা হলো
-      - name: Commit and push generated files
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "GitHub Actions Bot"
           git config --global user.email "actions@github.com"
-          git add playlist.m3u index.html status.txt Row_Link/
-          git commit -m "Auto-generated playlists, Row_Link folder, and status [skip ci]" || echo "No changes to commit"
+          git add playlist.m3u links.json Index.html status.txt Row_Link/
+          git commit -m "Auto-update FanCode playlist and links.json [skip ci]" || exit 0
           git push
