@@ -1,7 +1,12 @@
 {
+    "Dehradun_T20_League_2026_Mussoorie_Thunder_Selaqui_Strikers": {
+        "title": "Dehradun_T20_League_2026_Mussoorie_Thunder_Selaqui_Strikers",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249065_53058_MT_SS_fc-Web_fc-webtvbg.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/out/v1/ap-south-1/4249080_english_615681/ad-drm-h264/index.m3u8?hdnea=exp=1788988363~acl=/out/v1/ap-south-1/4249080_english_615681/ad-drm-h264/*~id=172.172.159.176_4249080_393b554c-ec3c-40~data=172.172.159.176_4249080_free_175~hmac=a3cf704a1cf2f9e1d03f7081980fae9538b80d1bc924fed2d340c8b2fcadacfb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "Carabao_Cup_2026_27_Chelsea_Leeds_United": {
         "title": "Carabao_Cup_2026_27_Chelsea_Leeds_United",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249054_53016_CHE_LU_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDkwNTRfNTMwMTZfQ0hFX0xVX2ZjLXdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249054_english_hls_bafefe6d9c58870_1ta-di_h264/index.m3u8?hdnea=exp=1788988250~acl=/mumbai/4249054_english_hls_bafefe6d9c58870_1ta-di_h264/*~id=20.55.15.228_4249054_602b9d65-8b42-43~data=20.55.15.228_4249054_free_175~hmac=b8856d8524cd727a50ba8ec9e2bcdb8905c71c12ff436c26ebc703edc294a7e9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249054_53016_CHE_LU_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249054_english_hls_bafefe6d9c58870_1ta-di_h264/index.m3u8?hdnea=exp=1788988376~acl=/mumbai/4249054_english_hls_bafefe6d9c58870_1ta-di_h264/*~id=172.172.159.176_4249054_4189e989-612a-43~data=172.172.159.176_4249054_free_175~hmac=0f965c12391b043813a277b0517abf0567de7df3d791acc34ae2a50eec8016cc&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
