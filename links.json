@@ -1,7 +1,12 @@
 {
+    "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions": {
+        "title": "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4248677_53052_MUT_ROS_fc-Web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDg2NzdfNTMwNTJfTVVUX1JPU19mYy1XZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://d2081uis2ps7dl.cloudfront.net/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/index.m3u8?hdnea=exp=1789146635~acl=/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/*~id=20.168.249.144_4248677_92e27c25-4f56-4a~data=20.168.249.144_4248677_free_175~hmac=10922ec467e187b69e10fbaba2a5ba3e939f5361a77cf462d8a7a0680ebeed21&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "F3_MADRID_2026_Qualifying_Madrid_Spain": {
         "title": "F3_MADRID_2026_Qualifying_Madrid_Spain",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GM19mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789146535~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=172.212.136.242_139742_8518b322-15ae-46~data=172.212.136.242_139742_free_175~hmac=22569048162e2b93ae527b3b53983b3da1250b99a1ac277b23b6a55d2bd5191c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789146648~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=20.168.249.144_139742_fa665ed6-6196-4f~data=20.168.249.144_139742_free_175~hmac=0b8d3f5482f5977d954683b9953211a9668537f5dcc7d4624df73337300c7d3c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
