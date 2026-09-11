@@ -1,12 +1,17 @@
 {
+    "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions": {
+        "title": "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4248677_53052_MUT_ROS_fc-Web.jpg",
+        "master_link": "https://bd-ak-flive.akamaized.net/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/index.m3u8?hdnea=exp=1789134998~acl=/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/*~id=52.156.108.73_4248677_3b797c51-3cd7-46~data=52.156.108.73_4248677_free_175~hmac=e901f60c56d41e4e361bcb39fbaec23b8526e60eb0c32e0f3bf752ec62e52913&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_1_Misano_World_Circuit": {
         "title": "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_1_Misano_World_Circuit",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01pbmlfTWF0Y2hfTW90b2dwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139966_english_hls_ec5e72c8f646959_1ta-di_h264/index.m3u8?hdnea=exp=1789134891~acl=/delhi/139966_english_hls_ec5e72c8f646959_1ta-di_h264/*~id=52.161.82.98_139966_44a47c9f-7aca-4e~data=52.161.82.98_139966_free_175~hmac=558534ed56a763af434e62334f1aaeff1a0498116f90589aad4e15878d4b1479&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139966_english_hls_ec5e72c8f646959_1ta-di_h264/index.m3u8?hdnea=exp=1789135010~acl=/delhi/139966_english_hls_ec5e72c8f646959_1ta-di_h264/*~id=52.156.108.73_139966_fdf45c91-3868-4f~data=52.156.108.73_139966_free_175~hmac=16b4d82a18a1504fad7304942a4c0f65c8a1dd500fca2dc354437eec84bb3a34&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "F2_MADRID_2026_Qualifying_Session_Madrid_Spain": {
         "title": "F2_MADRID_2026_Qualifying_Session_Madrid_Spain",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GMl9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139651_english_hls_a18f36f9ee81348_1ta-di_h264/index.m3u8?hdnea=exp=1789134904~acl=/mumbai/139651_english_hls_a18f36f9ee81348_1ta-di_h264/*~id=52.161.82.98_139651_7bcd577d-e70d-45~data=52.161.82.98_139651_free_175~hmac=c660edc045c57419b5c042d519e15b414ba27dca4568c2044484ec55d075eacf&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139651_english_hls_a18f36f9ee81348_1ta-di_h264/index.m3u8?hdnea=exp=1789135023~acl=/mumbai/139651_english_hls_a18f36f9ee81348_1ta-di_h264/*~id=52.156.108.73_139651_14fbc23e-2b4e-47~data=52.156.108.73_139651_free_175~hmac=5cc0ec94b8988f2d33eb39a8e968f9335c29a387348354991b13f3596cba30a4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
