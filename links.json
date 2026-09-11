@@ -1,7 +1,12 @@
 {
+    "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions": {
+        "title": "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4248677_53052_MUT_ROS_fc-Web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDg2NzdfNTMwNTJfTVVUX1JPU19mYy1XZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://d2081uis2ps7dl.cloudfront.net/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/index.m3u8?hdnea=exp=1789143880~acl=/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/*~id=172.182.226.23_4248677_995c673d-e721-43~data=172.182.226.23_4248677_free_175~hmac=814a7cad95db9e53c7dd18b49214de9f8b21b2b367488a40e22f1dec3853fbf6&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "F3_MADRID_2026_Qualifying_Madrid_Spain": {
         "title": "F3_MADRID_2026_Qualifying_Madrid_Spain",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GM19mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789143779~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=4.149.236.234_139742_026c798c-7470-4d~data=4.149.236.234_139742_free_175~hmac=ea1668a5808c986f323d87c2f7c343024b4d3c1eb20c636181f92a2e138d85bd&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789143893~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=172.182.226.23_139742_7cc719d0-5729-48~data=172.182.226.23_139742_free_175~hmac=59684d16b0f07e70b76f8e8c355ecbf9775181421949a5e054c9014b5f481a44&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
