@@ -1,12 +1,7 @@
 {
-    "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions": {
-        "title": "Oman_D50_2026_Muscat_Thunders_Royal_Oman_Stallions",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4248677_53052_MUT_ROS_fc-Web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDg2NzdfNTMwNTJfTVVUX1JPU19mYy1XZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://d2081uis2ps7dl.cloudfront.net/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/index.m3u8?hdnea=exp=1789145796~acl=/out/v1/ap-south-1/4248677_english_499392/ad-drm-h264/*~id=20.169.66.86_4248677_b56c566c-3d76-49~data=20.169.66.86_4248677_free_175~hmac=740af95297892424e7d570508000691297e90f88ad2b97d8fe98f7809b9ee2d2&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
     "F3_MADRID_2026_Qualifying_Madrid_Spain": {
         "title": "F3_MADRID_2026_Qualifying_Madrid_Spain",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GM19mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789145808~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=20.169.66.86_139742_bb330586-4fe6-43~data=20.169.66.86_139742_free_175~hmac=75395aee2f24dc79cc0f7c5f5282ec54e27ceb52632aa217f5efc2c11b5cec16&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/index.m3u8?hdnea=exp=1789145942~acl=/mumbai/139742_english_hls_b8930908e358441_1ta-di_h264/*~id=135.232.176.170_139742_19e3b23a-75e5-44~data=135.232.176.170_139742_free_175~hmac=e641f657a5e6e9cd24cc32d61f50b765ec112f43bd320305aa09eb43a8488a58&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
