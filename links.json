@@ -1,7 +1,12 @@
 {
     "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_2_Misano_World_Circuit_Marco_Simoncelli": {
         "title": "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_2_Misano_World_Circuit_Marco_Simoncelli",
-        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/index.m3u8?hdnea=exp=1789203635~acl=/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/*~id=20.163.6.85_4248535_82f958fc-4702-46~data=20.163.6.85_4248535_free_175~hmac=ac6054d90f2aa5f4b4698f16d21f53625a00c87f43b8e5f1e241d1ecd6f946fb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01pbmlfTWF0Y2hfTW90b2dwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/index.m3u8?hdnea=exp=1789203770~acl=/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/*~id=172.190.102.81_4248535_792121a8-b990-44~data=172.190.102.81_4248535_free_175~hmac=320b19ca96d9cd4a64419961beceaa1277176d15e97c652ed208b636ec6450dc&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "F3_MADRID_2026_Sprint_Race_Madrid_Spain": {
+        "title": "F3_MADRID_2026_Sprint_Race_Madrid_Spain",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F3_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GM19mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139743_english_hls_aba84d999095954_1ta-di_h264/index.m3u8?hdnea=exp=1789203783~acl=/mumbai/139743_english_hls_aba84d999095954_1ta-di_h264/*~id=172.190.102.81_139743_0a9725b2-1665-4d~data=172.190.102.81_139743_free_175~hmac=f744f8cdca91dd6498fefe3ad90518a6cf4f639389e71b0c199bcc1ee93e5728&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
