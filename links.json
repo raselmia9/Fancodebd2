@@ -1,22 +1,12 @@
 {
-    "Oman_D50_2026_Majees_Titans_Mustafa_Fragrance_House_Strikers": {
-        "title": "Oman_D50_2026_Majees_Titans_Mustafa_Fragrance_House_Strikers",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4248678_53052_MAT_MF_fc-Web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDg2NzhfNTMwNTJfTUFUX01GX2ZjLVdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/out/v1/ap-south-1/4248678_english_774984/ad-drm-h264/index.m3u8?hdnea=exp=1789220920~acl=/out/v1/ap-south-1/4248678_english_774984/ad-drm-h264/*~id=172.184.210.49_4248678_a1464fbc-0a63-49~data=172.184.210.49_4248678_free_175~hmac=45a9d6f33f72b1fa77661d770573fb91a417503ad07e27551dab27e5e6b7931e&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "EFL_Championship_2026_27_Derby_County_Football_Club_Birmingham_City_F_C": {
-        "title": "EFL_Championship_2026_27_Derby_County_Football_Club_Birmingham_City_F_C",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4247490_52993_DER_BIR_fc-web_1786657253171.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDc0OTBfNTI5OTNfREVSX0JJUl9mYy13ZWJfMTc4NjY1NzI1MzE3MS5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4247490_english_hls_b88fe841bd11167_1ta-di_h264/index.m3u8?hdnea=exp=1789220933~acl=/mumbai/4247490_english_hls_b88fe841bd11167_1ta-di_h264/*~id=172.184.210.49_4247490_e8add8c5-d2de-40~data=172.184.210.49_4247490_free_175~hmac=550c19969c9dd62c56bae8c19785451fd7d367c69f4a687d21c6b58e32496290&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    "EFL_Championship_2026_27_Watford_F_C_Stoke_City_F_C": {
+        "title": "EFL_Championship_2026_27_Watford_F_C_Stoke_City_F_C",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4247491_52993_WAT_STK_fc-web_1786657253197.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDc0OTFfNTI5OTNfV0FUX1NUS19mYy13ZWJfMTc4NjY1NzI1MzE5Ny5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4247491_english_hls_103578229099957_1ta-di_h264/index.m3u8?hdnea=exp=1789221051~acl=/mumbai/4247491_english_hls_103578229099957_1ta-di_h264/*~id=135.232.224.100_4247491_59cf9495-116a-43~data=135.232.224.100_4247491_free_175~hmac=f28a381a97072d159d723e5ea70a85cc80831bd3860e08603c495821eb055841&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_2_Misano_World_Circuit_Marco_Simoncelli": {
         "title": "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Day_2_Misano_World_Circuit_Marco_Simoncelli",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01pbmlfTWF0Y2hfTW90b2dwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/index.m3u8?hdnea=exp=1789220946~acl=/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/*~id=172.184.210.49_4248535_73fbddf9-10e3-41~data=172.184.210.49_4248535_free_175~hmac=8d71f302b2b2f122fa5ee8de5bf3078bcd7176ea577e0d9cff03121b62c0c64c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "F2_MADRID_2026_Sprint_Race_Madrid_Spain": {
-        "title": "F2_MADRID_2026_Sprint_Race_Madrid_Spain",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GMl9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139652_english_hls_3a38d2add898461_1ta-di_h264/index.m3u8?hdnea=exp=1789220959~acl=/mumbai/139652_english_hls_3a38d2add898461_1ta-di_h264/*~id=172.184.210.49_139652_39edf42d-c6b2-4d~data=172.184.210.49_139652_free_175~hmac=e8f5c2c6f305a135e673e9a17e7eaa2e8cf998cc0b30310e920eb1941e757acb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/index.m3u8?hdnea=exp=1789221063~acl=/delhi/4248535_english_hls_48b42c3e896054_1ta-di_h264/*~id=135.232.224.100_4248535_04b01b25-9094-4e~data=135.232.224.100_4248535_free_175~hmac=eb41afae0ef74c70a56d2db80233bbd00ce18419fd88bf3c54a2e095d39c2d25&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
