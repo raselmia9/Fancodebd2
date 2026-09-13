@@ -1,12 +1,12 @@
 {
     "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Race_Day_Misano_World_Circuit": {
         "title": "RED_BULL_GRAND_PRIX_OF_SAN_MARINO_THE_RIMINI_RIVIERA_Race_Day_Misano_World_Circuit",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01pbmlfTWF0Y2hfTW90b2dwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139968_english_hls_450673ef9f38148_1ta-di_h264/index.m3u8?hdnea=exp=1789293041~acl=/delhi/139968_english_hls_450673ef9f38148_1ta-di_h264/*~id=13.87.231.96_139968_1aa08faf-dbfe-48~data=13.87.231.96_139968_free_175~hmac=00d9cc0ea4c8a9562df1ae61e06887306d43787d017d699192e57aa97a3e848a&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Mini_Match_Motogp.png",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139968_english_hls_450673ef9f38148_1ta-di_h264/index.m3u8?hdnea=exp=1789293165~acl=/delhi/139968_english_hls_450673ef9f38148_1ta-di_h264/*~id=20.171.33.162_139968_e9b35085-c5e1-42~data=20.171.33.162_139968_free_175~hmac=11d418e620dd9ec07f2d76723023bc880dc0f47e3322f76f07a347f2330bd896&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "F2_MADRID_2026_Feature_Race_Madrid_Spain": {
         "title": "F2_MADRID_2026_Feature_Race_Madrid_Spain",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyLU1BRFJJRF9GMl9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139653_english_hls_dd03d598bd48609_1ta-di_h264/index.m3u8?hdnea=exp=1789293054~acl=/mumbai/139653_english_hls_dd03d598bd48609_1ta-di_h264/*~id=13.87.231.96_139653_cfda71e5-67ca-4c~data=13.87.231.96_139653_free_175~hmac=91affd69864977381e16ac846866252c5ab9433cdd8280a1ccc44dd5a549f8bb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/F2-MADRID_F2_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139653_english_hls_dd03d598bd48609_1ta-di_h264/index.m3u8?hdnea=exp=1789293178~acl=/mumbai/139653_english_hls_dd03d598bd48609_1ta-di_h264/*~id=20.171.33.162_139653_9da7a6e6-5bdb-4f~data=20.171.33.162_139653_free_175~hmac=4c068aa4d9426b5137b4748ead0e5034736760f9c98bb46d2e62ba2c0e42ae6c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
