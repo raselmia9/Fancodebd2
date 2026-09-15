@@ -1,4 +1,4 @@
 🟢 Success: Carabao Cup 2026 27 West Ham United Fulham
 🟢 Success: Carabao Cup 2026 27 Reading Brentford
 🟢 Success: Carabao Cup 2026 27 Ipswich Town F.C. Arsenal
-🟢 Success: Carabao Cup 2026 27 Liverpool Tottenham Hotspur
+🔴 Skipped (No Master Link): Carabao Cup 2026 27 Liverpool Tottenham Hotspur
