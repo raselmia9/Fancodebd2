@@ -1,1 +1,12 @@
-{}
+{
+    "F2_AZERBAIJAN_2026_Sprint_Race_Baku": {
+        "title": "F2_AZERBAIJAN_2026_Sprint_Race_Baku",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Bakuu.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0Jha3V1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139656_english_hls_e4a02c9c3271965_1ta-di_h264/index.m3u8?hdnea=exp=1790311715~acl=/mumbai/139656_english_hls_e4a02c9c3271965_1ta-di_h264/*~id=68.220.59.212_139656_7fab66cc-950d-42~data=68.220.59.212_139656_free_175~hmac=dcaec96f7a02e69efd5b3bcf1bdf02595990afa3a6b2dbb8d4c3ca4cc1588911&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China": {
+        "title": "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/index.m3u8?hdnea=exp=1790311728~acl=/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/*~id=68.220.59.212_4248539_03a39314-2193-4f~data=68.220.59.212_4248539_free_175~hmac=1e51c6d26172dcb8a46194c1d8fe84158f6094b024b276d48faefb5fe40f5793&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    }
+}
