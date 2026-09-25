@@ -1,12 +1,12 @@
 {
     "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China": {
         "title": "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/index.m3u8?hdnea=exp=1790324317~acl=/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/*~id=52.173.219.203_4248539_c989a2d1-7f67-4d~data=52.173.219.203_4248539_free_175~hmac=b3300b3f1ce1f58cab6118774339aa95bf0a0c972fbd442e53655fc394a4dfb0&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/index.m3u8?hdnea=exp=1790324438~acl=/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/*~id=52.188.87.151_4248539_7e12d461-ca9a-4a~data=52.188.87.151_4248539_free_175~hmac=f5c8ef53ea8e9a7ddec005c83e959aa2d942d18f5497eef5a6117859bc669f42&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_250_Hangzhou_Open_2026_Day_3_Hangzhou_China": {
         "title": "ATP_250_Hangzhou_Open_2026_Day_3_Hangzhou_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUC1IYW5nemhvdV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/index.m3u8?hdnea=exp=1790324330~acl=/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/*~id=52.173.219.203_4248546_af21af74-335e-4e~data=52.173.219.203_4248546_free_175~hmac=89e01c30259ab55342524a9307be024523018da4c5456b07f0299d5c9a63c5d5&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/index.m3u8?hdnea=exp=1790324451~acl=/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/*~id=52.188.87.151_4248546_e4097db0-6941-40~data=52.188.87.151_4248546_free_175~hmac=ace63fae42ba0752485c78902a7126f7b5ebd675de59575af02b6ee33f70d8da&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
