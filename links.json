@@ -1,7 +1,17 @@
 {
+    "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China": {
+        "title": "ATP_250_Chengdu_Open_2026_Day_3_Chengdu_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/index.m3u8?hdnea=exp=1790331878~acl=/mumbai/4248539_english_hls_b2cf70dc6c49752_1ta-di_h264/*~id=64.236.146.119_4248539_d305624c-7bd5-46~data=64.236.146.119_4248539_free_175~hmac=967fdc95a182bf2b1913825131b6ace7e8a24d70e06c9ca956209733cb1d72a0&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_250_Hangzhou_Open_2026_Day_3_Hangzhou_China": {
+        "title": "ATP_250_Hangzhou_Open_2026_Day_3_Hangzhou_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUC1IYW5nemhvdV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/index.m3u8?hdnea=exp=1790331891~acl=/mumbai/4248546_english_hls_060de42e452278_1ta-di_h264/*~id=64.236.146.119_4248546_2ca24cd6-eefb-4b~data=64.236.146.119_4248546_free_175~hmac=1e4e8b5ecbcd7e49d40f31ee18bf1b2106905d214601706b87af387e7f21aad6&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "F2_AZERBAIJAN_2026_Feature_Race_1_Baku": {
         "title": "F2_AZERBAIJAN_2026_Feature_Race_1_Baku",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Bakuu.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0Jha3V1LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139657_english_hls_4fd9ca009581821_1ta-di_h264/index.m3u8?hdnea=exp=1790331786~acl=/mumbai/139657_english_hls_4fd9ca009581821_1ta-di_h264/*~id=57.151.137.34_139657_ba29b98e-d1a7-48~data=57.151.137.34_139657_free_175~hmac=88b6c5be96396e6430458bf1e1e71c2509c0a1fd7e308f6789df709db07fa729&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139657_english_hls_4fd9ca009581821_1ta-di_h264/index.m3u8?hdnea=exp=1790331904~acl=/mumbai/139657_english_hls_4fd9ca009581821_1ta-di_h264/*~id=64.236.146.119_139657_ac7b790a-456b-44~data=64.236.146.119_139657_free_175~hmac=3faf3254679795459b88be57567e640d37f7ac582c95908d2abb97e71fb031a2&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
