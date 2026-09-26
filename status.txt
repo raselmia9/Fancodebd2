@@ -1,4 +1,4 @@
 🟢 Success: NCR T20 League, 2026 Delhi Dynamos Gurugram Gladiators
-🔴 Skipped (No Master Link): ATP 250 Chengdu Open 2026 Day 4 Chengdu, China
-🔴 Skipped (No Master Link): ATP 250 Hangzhou Open 2026 Day 4 Hangzhou, China
+🟢 Success: ATP 250 Chengdu Open 2026 Day 4 Chengdu, China
+🟢 Success: ATP 250 Hangzhou Open 2026 Day 4 Hangzhou, China
 🟢 Success: F2 AZERBAIJAN 2026 Feature Race 2 Baku
