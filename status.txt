@@ -1,5 +1,5 @@
 🟢 Success: NCR T20 League, 2026 Capital Cruisers Ghaziabad Giants
-🟢 Success: Barclays Women's Super League 2026 27 Manchester United Women West Ham United Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Manchester United Women West Ham United Women
 🟢 Success: Barclays Women's Super League 2026 27 Birmingham City F.C. Women Crystal Palace Women
 🟢 Success: Barclays Women's Super League 2026 27 Liverpool Women Everton Women
 🟢 Success: Barclays Women's Super League 2026 27 Tottenham Hotspur Women Aston Villa Women
