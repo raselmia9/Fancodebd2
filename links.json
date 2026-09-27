@@ -1,22 +1,27 @@
 {
     "NCR_T20_League_2026_Noida_Ninjas_Faridabad_Firebirds": {
         "title": "NCR_T20_League_2026_Noida_Ninjas_Faridabad_Firebirds",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDkyOTlfNTMwNzNfTk5KX0ZGSV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/index.m3u8?hdnea=exp=1790508161~acl=/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/*~id=74.235.117.98_4249299_017999b9-8f42-45~data=74.235.117.98_4249299_free_175~hmac=a94a8107dbeed2155375716ba4a3f4ffaaf9948003c41eff42abf4e06eeda6af&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/index.m3u8?hdnea=exp=1790508276~acl=/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/*~id=64.236.133.179_4249299_0bb15948-def7-40~data=64.236.133.179_4249299_free_175~hmac=23e77d6f03309979d194865deed66b2c1de630e886657d426f5a28962a01e108&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "NCR_T20_League_2026_Capital_Cruisers_Ghaziabad_Giants": {
+        "title": "NCR_T20_League_2026_Capital_Cruisers_Ghaziabad_Giants",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249302_53073_CRU_GGT_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249302_english_hls_fa26b726d87342_1ta-di_h264/index.m3u8?hdnea=exp=1790508288~acl=/mumbai/4249302_english_hls_fa26b726d87342_1ta-di_h264/*~id=64.236.133.179_4249302_885251e5-7526-49~data=64.236.133.179_4249302_free_175~hmac=64eabf4b72d50941e8a93a1e357b45e734d5207a6af7b7878d3f021442e4dfda&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "IFA_Shield_2026_Calcutta_Customs_Club_Punjab_FC": {
         "title": "IFA_Shield_2026_Calcutta_Customs_Club_Punjab_FC",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/MM.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01NLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/index.m3u8?hdnea=exp=1790508173~acl=/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/*~id=74.235.117.98_4249523_438f7bc3-9419-4d~data=74.235.117.98_4249523_free_175~hmac=e142424d13a93ec1613cc8605ca31ad30c74bdee322ef1892a6b34652f3cb539&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/index.m3u8?hdnea=exp=1790508301~acl=/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/*~id=64.236.133.179_4249523_add94249-9fd2-4e~data=64.236.133.179_4249523_free_175~hmac=62ad1e398c0ae0d80a4106279d92bd72551b5770d45978574a0845ef021e83e7&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_250_Chengdu_Open_2026_Day_5_Chengdu_China": {
         "title": "ATP_250_Chengdu_Open_2026_Day_5_Chengdu_China",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/index.m3u8?hdnea=exp=1790508186~acl=/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/*~id=74.235.117.98_4248541_0e18fadc-71d9-42~data=74.235.117.98_4248541_free_175~hmac=de4d0acd778c7e374ae12cde74312f54de529249218ff406d1103bdaf1e410d4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/index.m3u8?hdnea=exp=1790508314~acl=/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/*~id=64.236.133.179_4248541_dfbf4dd2-2f94-45~data=64.236.133.179_4248541_free_175~hmac=a3eed6c378213e8c264dd946e0c93c6537deeaf4953fd807ff16938a1c451e25&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_250_Hangzhou_Open_2026_Day_5_Hangzhou_China": {
         "title": "ATP_250_Hangzhou_Open_2026_Day_5_Hangzhou_China",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUC1IYW5nemhvdV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/index.m3u8?hdnea=exp=1790508198~acl=/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/*~id=74.235.117.98_4248548_f69396d8-6823-44~data=74.235.117.98_4248548_free_175~hmac=e81f5069b6f3084710753e09e4f00bbb8ae4f9ffb2e9f868252b31330c7a493f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/index.m3u8?hdnea=exp=1790508327~acl=/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/*~id=64.236.133.179_4248548_fe2591b4-4418-49~data=64.236.133.179_4248548_free_175~hmac=b1ee496b7744de7bc47a5bb68c51ff1c816bb84b9399f93ddc3cb52e7e21d7a3&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
