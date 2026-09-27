@@ -2,11 +2,21 @@
     "NCR_T20_League_2026_Noida_Ninjas_Faridabad_Firebirds": {
         "title": "NCR_T20_League_2026_Noida_Ninjas_Faridabad_Firebirds",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249299_53073_NNJ_FFI_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDkyOTlfNTMwNzNfTk5KX0ZGSV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/index.m3u8?hdnea=exp=1790507196~acl=/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/*~id=20.25.10.66_4249299_e325d3c8-7a53-4d~data=20.25.10.66_4249299_free_175~hmac=deb1fb919bfd12512230256e66f8f273fc3010530be87ded5a170dfa809ce4fa&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/index.m3u8?hdnea=exp=1790507313~acl=/mumbai/4249299_english_hls_1b3ba15c2187784_1ta-di_h264/*~id=172.174.118.38_4249299_c98a0df4-cf37-4a~data=172.174.118.38_4249299_free_175~hmac=50ba73fad0df9c317c9a942067b66c8b20ee21dad79dd4fc533b5dfe72036cb3&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "IFA_Shield_2026_Calcutta_Customs_Club_Punjab_FC": {
         "title": "IFA_Shield_2026_Calcutta_Customs_Club_Punjab_FC",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/MM.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01NLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/index.m3u8?hdnea=exp=1790507209~acl=/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/*~id=20.25.10.66_4249523_6f3ce4b3-fc65-43~data=20.25.10.66_4249523_free_175~hmac=be940456125bdc84db51c5073c359f435175ab27e81014fa780048fa56069d28&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/index.m3u8?hdnea=exp=1790507325~acl=/delhi/4249523_english_hls_5b9ffbb85436828_1ta-di_h264/*~id=172.174.118.38_4249523_ff7d63b3-0470-49~data=172.174.118.38_4249523_free_175~hmac=1f314eecc34510b2090670ece8e16e8cc1add54a4f4f625da4087d558da04c27&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_250_Chengdu_Open_2026_Day_5_Chengdu_China": {
+        "title": "ATP_250_Chengdu_Open_2026_Day_5_Chengdu_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/index.m3u8?hdnea=exp=1790507338~acl=/mumbai/4248541_english_hls_0b8ad6b83074722_1ta-di_h264/*~id=172.174.118.38_4248541_d8b2dbf8-6ddf-45~data=172.174.118.38_4248541_free_175~hmac=4f6561532b732c42f3af35997be683f05de8aeee64ac752cd8d2b72dbc11bc53&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_250_Hangzhou_Open_2026_Day_5_Hangzhou_China": {
+        "title": "ATP_250_Hangzhou_Open_2026_Day_5_Hangzhou_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP-Hangzhou_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUC1IYW5nemhvdV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/index.m3u8?hdnea=exp=1790507350~acl=/mumbai/4248548_english_hls_8c1d2c83fd54417_1ta-di_h264/*~id=172.174.118.38_4248548_5a25af5c-ca07-43~data=172.174.118.38_4248548_free_175~hmac=18968199de25ea12cfcf28834173f262461e165c8b716763fa74a18417735d6d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }

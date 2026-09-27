@@ -1,4 +1,4 @@
 🟢 Success: NCR T20 League, 2026 Noida Ninjas Faridabad Firebirds
 🟢 Success: IFA Shield 2026 Calcutta Customs Club Punjab FC
-🔴 Skipped (No Master Link): ATP 250 Chengdu Open 2026 Day 5 Chengdu, China
-🔴 Skipped (No Master Link): ATP 250 Hangzhou Open 2026 Day 5 Hangzhou, China
+🟢 Success: ATP 250 Chengdu Open 2026 Day 5 Chengdu, China
+🟢 Success: ATP 250 Hangzhou Open 2026 Day 5 Hangzhou, China
