@@ -1,5 +1,5 @@
 🟢 Success: NCR T20 League, 2026 Gurugram Gladiators Faridabad Firebirds
-🟢 Success: West Singhbhum T20 League 2026 Kolhan King Chaibasa Challengers
+🔴 Skipped (No Master Link): West Singhbhum T20 League 2026 Kolhan King Chaibasa Challengers
 🟢 Success: IFA Shield 2026 NorthEast United FC Mohun Bagan Super Giant
 🟢 Success: ATP 250 Hangzhou Open 2026 Final Hangzhou, China
-🟢 Success: ATP 250 Chengdu Open 2026 Final Chengdu, China
+🔴 Skipped (No Master Link): ATP 250 Chengdu Open 2026 Final Chengdu, China
