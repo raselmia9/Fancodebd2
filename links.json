@@ -1,7 +1,17 @@
 {
+    "NCR_T20_League_2026_Aravali_Avengers_Ghaziabad_Giants": {
+        "title": "NCR_T20_League_2026_Aravali_Avengers_Ghaziabad_Giants",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249298_53073_AAV_GGT_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDkyOThfNTMwNzNfQUFWX0dHVF9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249298_english_hls_8749184a2126571_1ta-di_h264/index.m3u8?hdnea=exp=1790666563~acl=/mumbai/4249298_english_hls_8749184a2126571_1ta-di_h264/*~id=68.220.58.5_4249298_b664adae-a46c-4d~data=68.220.58.5_4249298_free_175~hmac=fae3e349c5a9ffbda200135f9deb1154805daaa115e7092bdfc678a2419d5fa2&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "West_Singhbhum_T20_League_2026_Manoharpur_Lions_Saranda_Warriors": {
         "title": "West_Singhbhum_T20_League_2026_Manoharpur_Lions_Saranda_Warriors",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1dlc3QtU2luZ2hiaHVtLVQyMF8yMDI2X0ZDLVdFQi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250039_english_hls_1c36e783ce20374_1ta-di_h264/index.m3u8?hdnea=exp=1790666439~acl=/mumbai/4250039_english_hls_1c36e783ce20374_1ta-di_h264/*~id=172.215.231.121_4250039_e08cf38c-2bef-42~data=172.215.231.121_4250039_free_175~hmac=603536406361c2f34cd65a2cb7040caed55a753bb15dd8bbb903da3dee3e3561&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250039_english_hls_1c36e783ce20374_1ta-di_h264/index.m3u8?hdnea=exp=1790666576~acl=/mumbai/4250039_english_hls_1c36e783ce20374_1ta-di_h264/*~id=68.220.58.5_4250039_ba630ba7-3398-45~data=68.220.58.5_4250039_free_175~hmac=28dce6fd3704356db5fd5767e43d762a9f45cf5c15fadfca5f0c7cffa5f0addb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "West_Singhbhum_T20_League_2026_Kolhan_King_Chaibasa_Challengers": {
+        "title": "West_Singhbhum_T20_League_2026_Kolhan_King_Chaibasa_Challengers",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1dlc3QtU2luZ2hiaHVtLVQyMF8yMDI2X0ZDLVdFQi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250040_english_hls_68513388fe37676_1ta-di_h264/index.m3u8?hdnea=exp=1790666589~acl=/mumbai/4250040_english_hls_68513388fe37676_1ta-di_h264/*~id=68.220.58.5_4250040_ec95cc61-0ab4-4a~data=68.220.58.5_4250040_free_175~hmac=c3e5444169e9da722ebc29fad42d3cec307fb1c950aa6561782fd1ea974f0ac4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
