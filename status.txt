@@ -1,7 +1,7 @@
-🟢 Success: NCR T20 League, 2026 Delhi Dynamos Faridabad Firebirds
-🟢 Success: West Singhbhum T20 League 2026 Kolhan King Manoharpur Lions
+🔴 Skipped (No Master Link): NCR T20 League, 2026 Delhi Dynamos Faridabad Firebirds
+🔴 Skipped (No Master Link): West Singhbhum T20 League 2026 Kolhan King Manoharpur Lions
 🟢 Success: IFA Shield 2026 Punjab FC East Bengal FC
-🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 Kinoshita Group Show Court Tokyo, Japan
-🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 Day 1 World Feed Tokyo, Japan
-🟢 Success: ATP 500 China Open 2026 Day 1 World Feed Beijing, China
-🟢 Success: ATP 500 China Open 2026 Lotus Court Beijing, China
+🔴 Skipped (No Master Link): ATP 500 Kinoshita Group Japan Open 2026 Kinoshita Group Show Court Tokyo, Japan
+🔴 Skipped (No Master Link): ATP 500 Kinoshita Group Japan Open 2026 Day 1 World Feed Tokyo, Japan
+🔴 Skipped (No Master Link): ATP 500 China Open 2026 Day 1 World Feed Beijing, China
+🔴 Skipped (No Master Link): ATP 500 China Open 2026 Lotus Court Beijing, China
