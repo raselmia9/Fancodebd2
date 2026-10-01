@@ -1,5 +1,5 @@
 🟢 Success: NCR T20 League, 2026 Gurugram Gladiators Noida Ninjas
 🟢 Success: West Singhbhum T20 League 2026 Chakradharpur Royals Saranda Warriors
-🔴 Skipped (No Master Link): ATP 500 Kinoshita Group Japan Open 2026 Colosseum Court Tokyo, Japan
-🔴 Skipped (No Master Link): ATP 500 Kinoshita Group Japan Open 2026 Alcaraz vs Michelsen Tokyo, Japan
-🔴 Skipped (No Master Link): ATP 500 China Open 2026 World Feed Beijing, China
+🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 Colosseum Court Tokyo, Japan
+🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 Alcaraz vs Michelsen Tokyo, Japan
+🟢 Success: ATP 500 China Open 2026 World Feed Beijing, China
