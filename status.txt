@@ -1,6 +1,6 @@
 🟢 Success: NCR T20 League, 2026 Delhi Dynamos Gurugram Gladiators
 🟢 Success: West Singhbhum T20 League 2026 Kolhan King Saranda Warriors
-🟢 Success: MOTUL GRAND PRIX OF JAPAN 2026 Day 1 Motegi
+🔴 Skipped (No Master Link): MOTUL GRAND PRIX OF JAPAN 2026 Day 1 Motegi
 🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 Day 3 World Feed Tokyo, Japan
 🔴 Skipped (No Master Link): ATP 500 Kinoshita Group Japan Open 2026 Kinoshita Group Show Court Tokyo, Japan
 🟢 Success: ATP 500 China Open 2026 World Feed Beijing, China
