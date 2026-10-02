@@ -1,2 +1,2 @@
-🔴 Skipped (No Master Link): NCR T20 League, 2026 Yamuna Warriors Aravali Avengers
-🔴 Skipped (No Master Link): ATP 500 China Open 2026 World Feed 2 Beijing, China
+🟢 Success: NCR T20 League, 2026 Yamuna Warriors Aravali Avengers
+🟢 Success: ATP 500 China Open 2026 World Feed 2 Beijing, China
