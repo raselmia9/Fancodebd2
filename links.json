@@ -1,12 +1,12 @@
 {
     "NCR_T20_League_2026_Faridabad_Firebirds_Ghaziabad_Giants": {
         "title": "NCR_T20_League_2026_Faridabad_Firebirds_Ghaziabad_Giants",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/FaridabadFirebirdsvsGhaziabadGiants_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0ZhcmlkYWJhZEZpcmViaXJkc3ZzR2hhemlhYmFkR2lhbnRzX2ZjLXdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249309_english_hls_9ce51e5a1d98354_1ta-di_h264/index.m3u8?hdnea=exp=1791043475~acl=/mumbai/4249309_english_hls_9ce51e5a1d98354_1ta-di_h264/*~id=135.232.177.116_4249309_a41fcae4-797a-41~data=135.232.177.116_4249309_free_175~hmac=576842c82d7ade818fbbf233edb2ba7fb1515be9954ce7f10b73b2d7e4fd59d5&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/FaridabadFirebirdsvsGhaziabadGiants_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249309_english_hls_9ce51e5a1d98354_1ta-di_h264/index.m3u8?hdnea=exp=1791043593~acl=/mumbai/4249309_english_hls_9ce51e5a1d98354_1ta-di_h264/*~id=172.174.223.99_4249309_1fc5b817-b39a-44~data=172.174.223.99_4249309_free_175~hmac=94a1b48c8a8b7053a1e8e0d1532414c8974df73af6fb91bb50c818e0b2e7c500&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ICC_CWC_League_2_USA_2026_Namibia_United_Arab_Emirates": {
         "title": "ICC_CWC_League_2_USA_2026_Namibia_United_Arab_Emirates",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249656_53086_NAM_UAE_fc-web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk2NTZfNTMwODZfTkFNX1VBRV9mYy13ZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/index.m3u8?hdnea=exp=1791043487~acl=/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/*~id=135.232.177.116_4249656_30222fb9-a5ea-4f~data=135.232.177.116_4249656_free_175~hmac=afb915a34ed11bc2d0a53b791520cc78d8a3313469b5bbaaa42f68ef6320afd4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249656_53086_NAM_UAE_fc-web.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/index.m3u8?hdnea=exp=1791043606~acl=/mumbai/4249656_english_hls_f7482524e782286_1ta-di_h264/*~id=172.174.223.99_4249656_fccfc900-4808-45~data=172.174.223.99_4249656_free_175~hmac=0fed5655670abd68a34b3e98b3089a179a3712cd54723683a5709c4c63cf7b59&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
