@@ -3,4 +3,4 @@
 🟢 Success: Barclays Women's Super League 2026 27 Aston Villa Women Crystal Palace Women
 🟢 Success: Barclays Women's Super League 2026 27 Brighton and Hove Albion Women Charlton Athletic F.C Women
 🟢 Success: Barclays Women's Super League 2026 27 Everton Women Birmingham City F.C. Women
-🟢 Success: Barclays Women's Super League 2026 27 West Ham United Women Chelsea F.C. Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 West Ham United Women Chelsea F.C. Women
