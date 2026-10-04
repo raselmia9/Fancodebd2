@@ -2,4 +2,4 @@
 🟢 Success: ATP 500 Kinoshita Group Japan Open 2026 World Feed Tokyo, Japan
 🟢 Success: ATP 500 China Open 2026 World Feed Beijing, China
 🟢 Success: F1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026 Race Malaysia
-🟢 Success: ATP 500 China Open 2026 Lotus Court Beijing, China
+🔴 Skipped (No Master Link): ATP 500 China Open 2026 Lotus Court Beijing, China
