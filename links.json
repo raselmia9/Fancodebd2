@@ -1,12 +1,22 @@
 {
+    "NCR_T20_League_2026_Faridabad_Firebirds_Yamuna_Warriors": {
+        "title": "NCR_T20_League_2026_Faridabad_Firebirds_Yamuna_Warriors",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0ZDX1Nwb3J0c19EZWZhdWx0X2NyaWNrZXQtb2xkLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249308_english_hls_17fc206cee15972_1ta-di_h264/index.m3u8?hdnea=exp=1791112716~acl=/mumbai/4249308_english_hls_17fc206cee15972_1ta-di_h264/*~id=172.184.213.178_4249308_828d4400-e848-4e~data=172.184.213.178_4249308_free_175~hmac=8a30df9b9ff93548a77eb6b953209243e15668fe10b36fb8d43372c2224d1c28&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "West_Singhbhum_T20_League_2026_Jagannathpur_Tigers_Chaibasa_Challengers": {
         "title": "West_Singhbhum_T20_League_2026_Jagannathpur_Tigers_Chaibasa_Challengers",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1dlc3QtU2luZ2hiaHVtLVQyMF8yMDI2X0ZDLVdFQi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250050_english_hls_b76aa43b4771223_1ta-di_h264/index.m3u8?hdnea=exp=1791112595~acl=/mumbai/4250050_english_hls_b76aa43b4771223_1ta-di_h264/*~id=20.29.52.245_4250050_74e7d92a-045f-41~data=20.29.52.245_4250050_free_175~hmac=c4489d8a909c067582696bdd75b447c626ebd6680b13c4d66be1e70197a9b0cc&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250050_english_hls_b76aa43b4771223_1ta-di_h264/index.m3u8?hdnea=exp=1791112729~acl=/mumbai/4250050_english_hls_b76aa43b4771223_1ta-di_h264/*~id=172.184.213.178_4250050_c6cf5a94-1502-40~data=172.184.213.178_4250050_free_175~hmac=97822485495cd4f5f80ce70a417ee6cc50a94ba6a58032173a972a7aa3673515&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "IFA_Shield_2026_Mohun_Bagan_Super_Giant_Punjab_FC": {
+        "title": "IFA_Shield_2026_Mohun_Bagan_Super_Giant_Punjab_FC",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/MM.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01NLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249603_english_hls_efe83dbd1758643_1ta-di_h264/index.m3u8?hdnea=exp=1791112742~acl=/delhi/4249603_english_hls_efe83dbd1758643_1ta-di_h264/*~id=172.184.213.178_4249603_deb3bb91-d829-43~data=172.184.213.178_4249603_free_175~hmac=199ec3517f8423ff993b1fd7f7e5a2eff64a979c589d57cf4e339f6ee1b11250&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_500_China_Open_2026_World_Feed_Beijing_China": {
         "title": "ATP_500_China_Open_2026_World_Feed_Beijing_China",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web_1790593365296.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWJfMTc5MDU5MzM2NTI5Ni5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248555_english_hls_48ef5533d098096_1ta-di_h264/index.m3u8?hdnea=exp=1791112620~acl=/mumbai/4248555_english_hls_48ef5533d098096_1ta-di_h264/*~id=20.29.52.245_4248555_40247bd5-1dd3-45~data=20.29.52.245_4248555_free_175~hmac=d90ad84b6ff813d08ec62b07a1a8c2fca58589f1f66e694aaca21edfcb2be9c4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248555_english_hls_48ef5533d098096_1ta-di_h264/index.m3u8?hdnea=exp=1791112754~acl=/mumbai/4248555_english_hls_48ef5533d098096_1ta-di_h264/*~id=172.184.213.178_4248555_c22a3cb0-e6a0-48~data=172.184.213.178_4248555_free_175~hmac=3fa8a9c3480bf6b8297bd3553ae9b5f399dfa7e56448cd3955aed979374ba8a4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
