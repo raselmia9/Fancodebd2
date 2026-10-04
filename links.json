@@ -2,6 +2,11 @@
     "MOTUL_GRAND_PRIX_OF_JAPAN_2026_Race_Day_Motegi": {
         "title": "MOTUL_GRAND_PRIX_OF_JAPAN_2026_Race_Day_Motegi",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Moto-GP-Japan_Web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01vdG8tR1AtSmFwYW5fV2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139974_english_hls_4082a28ab841704_1ta-di_h264/index.m3u8?hdnea=exp=1791078398~acl=/delhi/139974_english_hls_4082a28ab841704_1ta-di_h264/*~id=40.65.61.32_139974_2cdc49c2-53ed-47~data=40.65.61.32_139974_free_175~hmac=2d9578325056dbf62a954bb200d03e64092a9bdb221a00545e127ebb836394ac&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139974_english_hls_4082a28ab841704_1ta-di_h264/index.m3u8?hdnea=exp=1791078513~acl=/delhi/139974_english_hls_4082a28ab841704_1ta-di_h264/*~id=20.163.93.147_139974_49bb152c-019e-4d~data=20.163.93.147_139974_free_175~hmac=a937983855c73f9503d5ed2b5ac67f7d94ce5da72da75d71d6d96966f6c4524f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_500_Kinoshita_Group_Japan_Open_2026_World_Feed_Tokyo_Japan": {
+        "title": "ATP_500_Kinoshita_Group_Japan_Open_2026_World_Feed_Tokyo_Japan",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP_Japan_Open_2026_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUF9KYXBhbl9PcGVuXzIwMjZfRkMtV0VCLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248569_english_hls_6e2c73e75753172_1ta-di_h264/index.m3u8?hdnea=exp=1791078525~acl=/mumbai/4248569_english_hls_6e2c73e75753172_1ta-di_h264/*~id=20.163.93.147_4248569_7d6d056a-49f2-46~data=20.163.93.147_4248569_free_175~hmac=4a416615bdd0ec655b142ec9d467579c566184b044caefa48d01e5221a2f657a&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
