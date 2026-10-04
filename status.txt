@@ -1,5 +1,5 @@
 🟢 Success: NCR T20 League, 2026 Faridabad Firebirds Yamuna Warriors
-🟢 Success: Barclays Women's Super League 2026 27 Tottenham Hotspur Women London City Lionesses
-🟢 Success: Barclays Women's Super League 2026 27 Brighton and Hove Albion Women Charlton Athletic F.C Women
-🟢 Success: Barclays Women's Super League 2026 27 Everton Women Birmingham City F.C. Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Tottenham Hotspur Women London City Lionesses
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Brighton and Hove Albion Women Charlton Athletic F.C Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Everton Women Birmingham City F.C. Women
 🟢 Success: Barclays Women's Super League 2026 27 Manchester City Women Arsenal Women
