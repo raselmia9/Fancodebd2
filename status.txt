@@ -1,2 +1,2 @@
-🔴 Skipped (No Master Link): ICC Men's T20 WC Asia Sub regional Qualifier A, 2026 Bhutan Myanmar
-🔴 Skipped (No Master Link): ICC Men's T20 WC Asia Sub regional Qualifier A, 2026 Bahrain Thailand
+🟢 Success: ICC Men's T20 WC Asia Sub regional Qualifier A, 2026 Bhutan Myanmar
+🟢 Success: ICC Men's T20 WC Asia Sub regional Qualifier A, 2026 Bahrain Thailand
