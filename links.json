@@ -1,12 +1,17 @@
 {
     "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_A_2026_Qatar_Thailand": {
         "title": "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_A_2026_Qatar_Thailand",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-Web1.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2ViMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249721_english_hls_5f8d60323a44397_1ta-di_h264/index.m3u8?hdnea=exp=1791256116~acl=/mumbai/4249721_english_hls_5f8d60323a44397_1ta-di_h264/*~id=20.163.93.153_4249721_a4d95e81-2ab3-4d~data=20.163.93.153_4249721_free_175~hmac=ecfe551763ed111e3f09f60d0f122e3e60cc9feaea443db67b222753b5157c1b&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Cricket_FC-Web1.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249721_english_hls_5f8d60323a44397_1ta-di_h264/index.m3u8?hdnea=exp=1791256237~acl=/mumbai/4249721_english_hls_5f8d60323a44397_1ta-di_h264/*~id=74.235.133.212_4249721_2741aa30-a2ee-4b~data=74.235.133.212_4249721_free_175~hmac=1d704f69e7c9bcbe525c2069722ff764517d1cc04ccd504fcec34bb519b2b1ab&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "West_Singhbhum_T20_League_2026_Kolhan_King_Jagannathpur_Tigers": {
+        "title": "West_Singhbhum_T20_League_2026_Kolhan_King_Jagannathpur_Tigers",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/West-Singhbhum-T20_2026_FC-WEB.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250053_english_hls_cec34b979914610_1ta-di_h264/index.m3u8?hdnea=exp=1791256250~acl=/mumbai/4250053_english_hls_cec34b979914610_1ta-di_h264/*~id=74.235.133.212_4250053_8a753ac3-fa1d-45~data=74.235.133.212_4250053_free_175~hmac=4698dbdd39cabdd10768406c5839b7b7b9f8d75f300d5a647088906b65395afa&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_500_Kinoshita_Group_Japan_Open_2026_Doubles_Final_Tokyo_Japan": {
         "title": "ATP_500_Kinoshita_Group_Japan_Open_2026_Doubles_Final_Tokyo_Japan",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ATP_Japan_Open_2026_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FUUF9KYXBhbl9PcGVuXzIwMjZfRkMtV0VCLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/index.m3u8?hdnea=exp=1791256128~acl=/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/*~id=20.163.93.153_4248571_eab2ff1e-c010-47~data=20.163.93.153_4248571_free_175~hmac=7977730ae2e7f6b5f420ba6f3400b6faf974360a7b7f80e2ada6cf31079aaac5&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/ATP_Japan_Open_2026_FC-WEB.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/index.m3u8?hdnea=exp=1791256262~acl=/mumbai/4248571_english_hls_37929a600b86049_1ta-di_h264/*~id=74.235.133.212_4248571_ea941b9c-eada-48~data=74.235.133.212_4248571_free_175~hmac=254be0ffe42648977d3a6775c0963f24b9ea8720d8a105a29b16a5845b97ec7b&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
