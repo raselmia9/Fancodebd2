@@ -1,7 +1,12 @@
 {
     "ICC_CWC_League_2_USA_2026_Namibia_United_Arab_Emirates": {
         "title": "ICC_CWC_League_2_USA_2026_Namibia_United_Arab_Emirates",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249659_53086_NAM_UAE_fc-web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk2NTlfNTMwODZfTkFNX1VBRV9mYy13ZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/index.m3u8?hdnea=exp=1791571837~acl=/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/*~SessionID=132.196.30.219_4249659_fc-web_45e5d222-2baf-44~data=132.196.30.219_4249659_free_175~hmac=d27665162262e332b26df3b3f1404b9232b85a7aa16d8ade9220a8fb31fe0ed9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249659_53086_NAM_UAE_fc-web.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/index.m3u8?hdnea=exp=1791571961~acl=/mumbai/4249659_english_hls_ac4329ad4035044_1ta-di_h264/*~SessionID=172.203.253.167_4249659_fc-web_03041926-891d-49~data=172.203.253.167_4249659_free_175~hmac=b7ec4cd97f7bba96bfd4ed1e2eea27adaf2ebe8726299bfe06f3143e487b8d4d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "EFL_Championship_2026_27_West_Ham_United_Queens_Park_Rangers_F_C": {
+        "title": "EFL_Championship_2026_27_West_Ham_United_Queens_Park_Rangers_F_C",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249588_52993_WHU_QPR_fc-web.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249588_english_hls_ab48fa75c557855_1ta-di_h264/index.m3u8?hdnea=exp=1791571974~acl=/mumbai/4249588_english_hls_ab48fa75c557855_1ta-di_h264/*~SessionID=172.203.253.167_4249588_fc-web_4974cf43-f8cb-45~data=172.203.253.167_4249588_free_175~hmac=582f122a325e505d0dc68d5588650a74c59db716827a56cecc24f28c72bd63ec&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
