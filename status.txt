@@ -1,7 +1,7 @@
 🟢 Success: ICC CWC League 2 Oman, 2026 Oman Canada
 🟢 Success: ICC Men's T20 WC Asia Sub regional Qualifier B, 2026 Malaysia Saudi Arabia
 🟢 Success: ICC Men's T20 WC Asia Sub regional Qualifier B, 2026 Maldives Singapore
-🟢 Success: PERTAMINA GRAND PRIX OF INDONESIA 2026 Day 1 Mandalika
+🔴 Skipped (No Master Link): PERTAMINA GRAND PRIX OF INDONESIA 2026 Day 1 Mandalika
 🟢 Success: ATP Masters Rolex Shanghai Masters Show Court 3 Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters World Feed Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Grandstand 2 Shanghai, China
