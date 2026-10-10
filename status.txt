@@ -3,5 +3,4 @@
 🟢 Success: ATP Masters Rolex Shanghai Masters Court 4 Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Show Court 3 Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Court 7 Shanghai
-🔴 Skipped (No Master Link): ATP Masters Rolex Shanghai Masters Court 6 Shanghai
 🟢 Success: ATP Masters Rolex Shanghai Masters Stadium Court Shanghai
