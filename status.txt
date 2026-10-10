@@ -1,4 +1,3 @@
-🟢 Success: PERTAMINA GRAND PRIX OF INDONESIA 2026 Day 2 Mandalika
 🟢 Success: ATP Masters Rolex Shanghai Masters World Feed Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Grandstand 2 Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Court 4 Shanghai, China
@@ -7,4 +6,4 @@
 🟢 Success: ATP Masters Rolex Shanghai Masters Court 6 Shanghai
 🟢 Success: ATP Masters Rolex Shanghai Masters Stadium Court Shanghai
 🟢 Success: F1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026 Sprint Marina Bay Street Circuit
-🔴 Skipped (No Master Link): F1 Kids 2026 F1 Kids 2026 Singapore
+🟢 Success: F1 Kids 2026 F1 Kids 2026 Singapore
