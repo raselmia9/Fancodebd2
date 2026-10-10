@@ -1,32 +1,37 @@
 {
+    "PERTAMINA_GRAND_PRIX_OF_INDONESIA_2026_Day_2_Mandalika": {
+        "title": "PERTAMINA_GRAND_PRIX_OF_INDONESIA_2026_Day_2_Mandalika",
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/MotoGP_FC-Web.png",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139976_english_hls_3dea8cb36629055_1ta-di_h264/index.m3u8?hdnea=exp=1791606990~acl=/delhi/139976_english_hls_3dea8cb36629055_1ta-di_h264/*~SessionID=4.236.89.50_139976_fc-web_2b0cc610-77d3-42~data=4.236.89.50_139976_free_175~hmac=b17d4fbdffdd4969aa084c0e337cfdded1a48859560fb12c9ec22e725bc8365f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248821_english_hls_0b332350ae68550_1ta-di_h264/index.m3u8?hdnea=exp=1791606773~acl=/mumbai/4248821_english_hls_0b332350ae68550_1ta-di_h264/*~SessionID=128.203.198.66_4248821_fc-web_d1f3ce91-9103-43~data=128.203.198.66_4248821_free_175~hmac=3d6d678c7c59fed6965ee99b61b7ef4473de58e494ae38a06a454d77947612f0&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248821_english_hls_0b332350ae68550_1ta-di_h264/index.m3u8?hdnea=exp=1791607003~acl=/mumbai/4248821_english_hls_0b332350ae68550_1ta-di_h264/*~SessionID=4.236.89.50_4248821_fc-web_9a1d857c-62e2-4b~data=4.236.89.50_4248821_free_175~hmac=f80014d4821bfce4ff14ff06fb833697dd5b3e2291282889147cd015e5dec77d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_Grandstand_2_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_Grandstand_2_Shanghai_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Medvedev-vs-Jan-Lennard_web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL01lZHZlZGV2LXZzLUphbi1MZW5uYXJkX3dlYi5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248822_english_hls_04200fa90863901_1ta-di_h264/index.m3u8?hdnea=exp=1791606786~acl=/mumbai/4248822_english_hls_04200fa90863901_1ta-di_h264/*~SessionID=128.203.198.66_4248822_fc-web_b116dd47-ad66-46~data=128.203.198.66_4248822_free_175~hmac=a480fa5855252855a3f296c3ccd5d37b16b9d31e1ff595241f7aa4140679c067&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Medvedev-vs-Jan-Lennard_web.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248822_english_hls_04200fa90863901_1ta-di_h264/index.m3u8?hdnea=exp=1791607015~acl=/mumbai/4248822_english_hls_04200fa90863901_1ta-di_h264/*~SessionID=4.236.89.50_4248822_fc-web_419424f6-da67-40~data=4.236.89.50_4248822_free_175~hmac=29b635a655c292add9a88f2ebda3b832951e7b99487a606f0d2c98f2b6c4dc2a&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_Court_4_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_Court_4_Shanghai_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248823_english_hls_59941943ff83225_1ta-di_h264/index.m3u8?hdnea=exp=1791606799~acl=/mumbai/4248823_english_hls_59941943ff83225_1ta-di_h264/*~SessionID=128.203.198.66_4248823_fc-web_6ae720e7-15d4-43~data=128.203.198.66_4248823_free_175~hmac=8dbcad9fd1ab4fbb6448bea9f45c7e778dc7e4cd90be25b9ab8d1aa9a8416511&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248823_english_hls_59941943ff83225_1ta-di_h264/index.m3u8?hdnea=exp=1791607028~acl=/mumbai/4248823_english_hls_59941943ff83225_1ta-di_h264/*~SessionID=4.236.89.50_4248823_fc-web_827020ab-2dae-47~data=4.236.89.50_4248823_free_175~hmac=fd09dcba86119614f2812d7bf5abcb8e24d4bd0a9443955fce0e11e67ab10dff&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_Show_Court_3_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_Show_Court_3_Shanghai_China",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248824_english_hls_c8079e2a8737683_1ta-di_h264/index.m3u8?hdnea=exp=1791606811~acl=/mumbai/4248824_english_hls_c8079e2a8737683_1ta-di_h264/*~SessionID=128.203.198.66_4248824_fc-web_72b5fe9d-db85-44~data=128.203.198.66_4248824_free_175~hmac=d200c949b3df2887bb23f53b9012333480383853e389568c9ea2b278e8468175&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248824_english_hls_c8079e2a8737683_1ta-di_h264/index.m3u8?hdnea=exp=1791607041~acl=/mumbai/4248824_english_hls_c8079e2a8737683_1ta-di_h264/*~SessionID=4.236.89.50_4248824_fc-web_d98bfc3c-81b4-49~data=4.236.89.50_4248824_free_175~hmac=63284a43eadf258c8262f0e2cbf50add169573a099dce9b8bebb3f6c04adeb07&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_Court_7_Shanghai": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_Court_7_Shanghai",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250197_english_hls_9e1cdbe57e66751_1ta-di_h264/index.m3u8?hdnea=exp=1791606824~acl=/mumbai/4250197_english_hls_9e1cdbe57e66751_1ta-di_h264/*~SessionID=128.203.198.66_4250197_fc-web_8f4b2f0e-12a2-41~data=128.203.198.66_4250197_free_175~hmac=8e7997537bd28c453a992503112739ce6f6570e7d8c5053e8c0f1edb9f77ae7c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250197_english_hls_9e1cdbe57e66751_1ta-di_h264/index.m3u8?hdnea=exp=1791607053~acl=/mumbai/4250197_english_hls_9e1cdbe57e66751_1ta-di_h264/*~SessionID=4.236.89.50_4250197_fc-web_cc02e359-f1da-43~data=4.236.89.50_4250197_free_175~hmac=60cda0fac134d70923b0b408369c6a677c9920b00359805da7c23ac8cf3bf76f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_Court_6_Shanghai": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_Court_6_Shanghai",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250198_english_hls_fd10f4177837867_1ta-di_h264/index.m3u8?hdnea=exp=1791606837~acl=/mumbai/4250198_english_hls_fd10f4177837867_1ta-di_h264/*~SessionID=128.203.198.66_4250198_fc-web_4b965cf4-eaf6-47~data=128.203.198.66_4250198_free_175~hmac=aa0d0d828e260f5008b0418d496868651a0770e911b93401b2ab77f1747c9f43&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250198_english_hls_fd10f4177837867_1ta-di_h264/index.m3u8?hdnea=exp=1791607066~acl=/mumbai/4250198_english_hls_fd10f4177837867_1ta-di_h264/*~SessionID=4.236.89.50_4250198_fc-web_bf31dff0-da4d-42~data=4.236.89.50_4250198_free_175~hmac=766447f2d3d6d34dc0d1120c8e55fd6919d6b61a4c2b2076a933c6f0642fb0fa&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
