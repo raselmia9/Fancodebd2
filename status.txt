@@ -3,4 +3,4 @@
 🟢 Success: ATP Masters Rolex Shanghai Masters World Feed Shanghai, China
 🟢 Success: ATP Masters Rolex Shanghai Masters Stadium Court Shanghai, China
 🟢 Success: F1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026 Race Marina Bay Street Circuit
-🔴 Skipped (No Master Link): F1 Kids 2026 F1 Kids 2026 Singapore
+🟢 Success: F1 Kids 2026 F1 Kids 2026 Singapore
