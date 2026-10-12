@@ -1,1 +1,17 @@
-{}
+{
+    "ATP_Masters_Rolex_Shanghai_Masters_Stadium_Court_Shanghai_China": {
+        "title": "ATP_Masters_Rolex_Shanghai_Masters_Stadium_Court_Shanghai_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248829_english_hls_ab603c5ffe89757_1ta-di_h264/index.m3u8?hdnea=exp=1791803207~acl=/mumbai/4248829_english_hls_ab603c5ffe89757_1ta-di_h264/*~SessionID=172.182.226.236_4248829_fc-web_2e36336e-5fa2-4f~data=172.182.226.236_4248829_free_175~hmac=db97a22362beecd4c00df7cd1f8a06e021d73eefd3b0ac0def79a1536779d167&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_Masters_Rolex_Shanghai_Masters_Grandstand_2_Shanghai_China": {
+        "title": "ATP_Masters_Rolex_Shanghai_Masters_Grandstand_2_Shanghai_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248831_english_hls_d85f2846c991426_1ta-di_h264/index.m3u8?hdnea=exp=1791803220~acl=/mumbai/4248831_english_hls_d85f2846c991426_1ta-di_h264/*~SessionID=172.182.226.236_4248831_fc-web_dfb9c63b-e06f-4e~data=172.182.226.236_4248831_free_175~hmac=8a0d5203eb424d37547ce0989f7857c3c7d02c7d50b803d30b27f57cd017b316&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_Masters_Rolex_Shanghai_Masters_C_Alcaraz_vs_Z_Bergs_Shanghai_China": {
+        "title": "ATP_Masters_Rolex_Shanghai_Masters_C_Alcaraz_vs_Z_Bergs_Shanghai_China",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Alcaraz-vs-Zizou-Bergs_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0FsY2FyYXotdnMtWml6b3UtQmVyZ3NfV2ViLW1hdGNoLWNhcmQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248832_english_hls_6865163b9417853_1ta-di_h264/index.m3u8?hdnea=exp=1791803232~acl=/mumbai/4248832_english_hls_6865163b9417853_1ta-di_h264/*~SessionID=172.182.226.236_4248832_fc-web_13ce3e80-26e5-43~data=172.182.226.236_4248832_free_175~hmac=a4b08decd935a379f20ea044e87524ec24ee7176e321179917148c130e4d4f32&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    }
+}
