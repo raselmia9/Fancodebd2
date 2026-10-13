@@ -1,7 +1,12 @@
 {
+    "ICC_CWC_League_2_USA_2026_USA_Namibia": {
+        "title": "ICC_CWC_League_2_USA_2026_USA_Namibia",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249661_53086_USA_NAM_fc-web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk2NjFfNTMwODZfVVNBX05BTV9mYy13ZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249661_english_hls_9bc340b99751112_1ta-di_h264/index.m3u8?hdnea=exp=1791903161~acl=/mumbai/4249661_english_hls_9bc340b99751112_1ta-di_h264/*~SessionID=172.203.207.200_4249661_fc-web_d817232c-f34a-4d~data=172.203.207.200_4249661_free_175~hmac=4585c32329427468a4ca34730ba5eecd31d29f41742ccfd84fcd5361dabc2d33&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248836_english_hls_60e959b67554346_1ta-di_h264/index.m3u8?hdnea=exp=1791903035~acl=/mumbai/4248836_english_hls_60e959b67554346_1ta-di_h264/*~SessionID=130.131.204.84_4248836_fc-web_3f68acc9-f71e-4e~data=130.131.204.84_4248836_free_175~hmac=17fa21d49b5bf63f0f3c7a66d3f2d1fad17998f8855a87b750e28f05669da2d9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248836_english_hls_60e959b67554346_1ta-di_h264/index.m3u8?hdnea=exp=1791903174~acl=/mumbai/4248836_english_hls_60e959b67554346_1ta-di_h264/*~SessionID=172.203.207.200_4248836_fc-web_13f5ff99-5766-43~data=172.203.207.200_4248836_free_175~hmac=421fef00cb75b08faff1705fd868d924167c81f012148df9b630c172326e9c48&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
