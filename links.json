@@ -1,12 +1,22 @@
 {
+    "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_A_2026_Bhutan_Thailand": {
+        "title": "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_A_2026_Bhutan_Thailand",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-Web1.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2ViMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249738_english_hls_3cb191d4eb7577_1ta-di_h264/index.m3u8?hdnea=exp=1791957276~acl=/mumbai/4249738_english_hls_3cb191d4eb7577_1ta-di_h264/*~SessionID=52.173.181.20_4249738_fc-web_d28ee5d2-acba-49~data=52.173.181.20_4249738_free_160~hmac=7d20a8216288353fa890d79296f6586b4e447959314fa508fec5f4759566eeac&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_B_2026_Hong_Kong_China_Singapore": {
         "title": "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_B_2026_Hong_Kong_China_Singapore",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249752_53092_HK_SIN_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk3NTJfNTMwOTJfSEtfU0lOX2ZjLXdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249752_english_hls_73791dfc0190300_1ta-di_h264/index.m3u8?hdnea=exp=1791957158~acl=/mumbai/4249752_english_hls_73791dfc0190300_1ta-di_h264/*~SessionID=74.235.143.211_4249752_fc-web_fe2835eb-f8f6-41~data=74.235.143.211_4249752_free_160~hmac=028922de04ae9fef358ed63a8332f1aa431d2a9d0ea84983b310cba5149e0a61&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249752_english_hls_73791dfc0190300_1ta-di_h264/index.m3u8?hdnea=exp=1791957288~acl=/mumbai/4249752_english_hls_73791dfc0190300_1ta-di_h264/*~SessionID=52.173.181.20_4249752_fc-web_53388091-be01-4d~data=52.173.181.20_4249752_free_160~hmac=e6db0ec95bddc1220bc68e3d0226feed24cddf03312ccf5e5c899936c37e2df4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_B_2026_Maldives_Saudi_Arabia": {
+        "title": "ICC_Men_s_T20_WC_Asia_Sub_regional_Qualifier_B_2026_Maldives_Saudi_Arabia",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249753_53092_MDV_SDA_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk3NTNfNTMwOTJfTURWX1NEQV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249753_english_hls_f13ce4a08898878_1ta-di_h264/index.m3u8?hdnea=exp=1791957301~acl=/mumbai/4249753_english_hls_f13ce4a08898878_1ta-di_h264/*~SessionID=52.173.181.20_4249753_fc-web_d3592b33-46ee-48~data=52.173.181.20_4249753_free_160~hmac=3e5080b3208853e0b6f0825c2a820c6df6579e717ab9742edc87264ee3823816&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China": {
         "title": "ATP_Masters_Rolex_Shanghai_Masters_World_Feed_Shanghai_China",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Shanghai_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1NoYW5naGFpX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248839_english_hls_0a9794cf1a15008_1ta-di_h264/index.m3u8?hdnea=exp=1791957171~acl=/mumbai/4248839_english_hls_0a9794cf1a15008_1ta-di_h264/*~SessionID=74.235.143.211_4248839_fc-web_53250ae7-9775-44~data=74.235.143.211_4248839_free_160~hmac=91c45cbc4d510316adb029c971b341a7dfdb2c1f4667342141e86abaf6d3387f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4248839_english_hls_0a9794cf1a15008_1ta-di_h264/index.m3u8?hdnea=exp=1791957314~acl=/mumbai/4248839_english_hls_0a9794cf1a15008_1ta-di_h264/*~SessionID=52.173.181.20_4248839_fc-web_ef659755-361b-4a~data=52.173.181.20_4248839_free_160~hmac=9ed43b522d72ea06cfb0311c3edf2b62e091044ee9b9c10fb7b02cf4dccb69c9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
