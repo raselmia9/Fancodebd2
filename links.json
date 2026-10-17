@@ -1,7 +1,12 @@
 {
+    "ICC_CWC_League_2_Oman_2026_Canada_Nepal": {
+        "title": "ICC_CWC_League_2_Oman_2026_Canada_Nepal",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4250117_53106_CAN_NEP_fc-Web.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNTAxMTdfNTMxMDZfQ0FOX05FUF9mYy1XZWIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250117_english_hls_b306da16ed31641_1ta-di_h264/index.m3u8?hdnea=exp=1792214317~acl=/mumbai/4250117_english_hls_b306da16ed31641_1ta-di_h264/*~SessionID=135.232.185.18_4250117_fc-web_b66c95f9-7f0c-42~data=135.232.185.18_4250117_free_160~hmac=06d5805c50c5dd723c32acacfc3ccedfeebef4c22d731385bfbf8095110feb27&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "A_League_2026_27_Auckland_Melbourne_City": {
         "title": "A_League_2026_27_Auckland_Melbourne_City",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249835_53101_AFC_MLC_fc-Web_1791982771900.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4MzVfNTMxMDFfQUZDX01MQ19mYy1XZWJfMTc5MTk4Mjc3MTkwMC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249835_english_hls_083505468c45123_1ta-di_h264/index.m3u8?hdnea=exp=1792214192~acl=/mumbai/4249835_english_hls_083505468c45123_1ta-di_h264/*~SessionID=74.249.133.161_4249835_fc-web_a0a43930-df25-4d~data=74.249.133.161_4249835_free_160~hmac=6d4a12cb5d5f8d3ab133e0296fef4d78b0a7986305bc6ce534c203bfcbb12a45&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249835_english_hls_083505468c45123_1ta-di_h264/index.m3u8?hdnea=exp=1792214330~acl=/mumbai/4249835_english_hls_083505468c45123_1ta-di_h264/*~SessionID=135.232.185.18_4249835_fc-web_4383cb44-b50e-4a~data=135.232.185.18_4249835_free_160~hmac=68140bc67b7ee27b71c3ace535c301fe35d805e457e255ed86bb80db2feae2da&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
