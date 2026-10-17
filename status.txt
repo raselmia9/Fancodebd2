@@ -1,4 +1,4 @@
-🔴 Skipped (No Master Link): ICC CWC League 2 Oman, 2026 Canada Nepal
-🔴 Skipped (No Master Link): EFL Championship 2026 27 Watford F.C. Charlton Athletic F.C
-🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Arsenal Women Birmingham City F.C. Women
-🔴 Skipped (No Master Link): ATP Masters Rolex Shanghai Masters Jodar vs Medvedev Shanghai, China
+🟢 Success: ICC CWC League 2 Oman, 2026 Canada Nepal
+🟢 Success: EFL Championship 2026 27 Watford F.C. Charlton Athletic F.C
+🟢 Success: Barclays Women's Super League 2026 27 Arsenal Women Birmingham City F.C. Women
+🟢 Success: ATP Masters Rolex Shanghai Masters Jodar vs Medvedev Shanghai, China
