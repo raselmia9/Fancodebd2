@@ -1,7 +1,12 @@
 {
+    "ATP_250_Almaty_Open_2026_World_Feed_Almaty_Kazakhstan": {
+        "title": "ATP_250_Almaty_Open_2026_World_Feed_Almaty_Kazakhstan",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-Web_1792392838118.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZWJfMTc5MjM5MjgzODExOC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249607_english_hls_4fed40e0cb31361_1ta-di_h264/index.m3u8?hdnea=exp=1792428405~acl=/mumbai/4249607_english_hls_4fed40e0cb31361_1ta-di_h264/*~SessionID=40.84.219.49_4249607_fc-web_20f06f20-5d28-4e~data=40.84.219.49_4249607_free_160~hmac=03d38e3313b116e2ab834c1564916c6d13932d8749598833c6885de544e2c301&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "ATP_250_Grand_Prix_Auvergne_Rhone_Alpes_2026_World_Feed_Lyon_France": {
         "title": "ATP_250_Grand_Prix_Auvergne_Rhone_Alpes_2026_World_Feed_Lyon_France",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Grand-Prix-Auvergne-Rhone-Alpes_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0dyYW5kLVByaXgtQXV2ZXJnbmUtUmhvbmUtQWxwZXNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249614_english_hls_1740f949599392_1ta-di_h264/index.m3u8?hdnea=exp=1792428288~acl=/mumbai/4249614_english_hls_1740f949599392_1ta-di_h264/*~SessionID=172.208.60.166_4249614_fc-web_d5e93894-2dc4-47~data=172.208.60.166_4249614_free_160~hmac=ce2c1a84e40265bf5d82463cc9e61b5bc88a8607dd359926310ebc7b8c13248d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249614_english_hls_1740f949599392_1ta-di_h264/index.m3u8?hdnea=exp=1792428418~acl=/mumbai/4249614_english_hls_1740f949599392_1ta-di_h264/*~SessionID=40.84.219.49_4249614_fc-web_cc1fad8a-67a5-4c~data=40.84.219.49_4249614_free_160~hmac=008f491086b0fe26941c494ec9d9743e3ae8e43a46565d04309dc78b88cd5baa&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
