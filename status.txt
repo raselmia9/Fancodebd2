@@ -1,2 +1,2 @@
-🟢 Success: ATP 250 BNP Paribas Fortis European Open Day 2 World Feed Brussels, Belgium
-🟢 Success: ATP 250 Grand Prix Auvergne Rhone Alpes 2026 Day 2 World Feed Lyon, France
+🔴 Skipped (No Master Link): ATP 250 BNP Paribas Fortis European Open Day 2 World Feed Brussels, Belgium
+🔴 Skipped (No Master Link): ATP 250 Grand Prix Auvergne Rhone Alpes 2026 Day 2 World Feed Lyon, France
