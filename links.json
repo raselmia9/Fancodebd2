@@ -1,1 +1,12 @@
-{}
+{
+    "ATP_250_BNP_Paribas_Fortis_European_Open_Day_2_World_Feed_Brussels_Belgium": {
+        "title": "ATP_250_BNP_Paribas_Fortis_European_Open_Day_2_World_Feed_Brussels_Belgium",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/BNP-Paribas-Fortis-European-Open_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0JOUC1QYXJpYmFzLUZvcnRpcy1FdXJvcGVhbi1PcGVuX2ZjLXdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249622_english_hls_8342648ba261_1ta-di_h264/index.m3u8?hdnea=exp=1792523692~acl=/mumbai/4249622_english_hls_8342648ba261_1ta-di_h264/*~SessionID=20.12.244.197_4249622_fc-web_dca9c870-57a2-42~data=20.12.244.197_4249622_free_160~hmac=21f92ca6b707baba0dd72d11f46dfc0d7d9ad2611092405361792edac6b6502c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_250_Grand_Prix_Auvergne_Rhone_Alpes_2026_Day_2_World_Feed_Lyon_France": {
+        "title": "ATP_250_Grand_Prix_Auvergne_Rhone_Alpes_2026_Day_2_World_Feed_Lyon_France",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Grand-Prix-Auvergne-Rhone-Alpes_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0dyYW5kLVByaXgtQXV2ZXJnbmUtUmhvbmUtQWxwZXNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249615_english_hls_d47039c54e87886_1ta-di_h264/index.m3u8?hdnea=exp=1792523705~acl=/mumbai/4249615_english_hls_d47039c54e87886_1ta-di_h264/*~SessionID=20.12.244.197_4249615_fc-web_c6c44ac0-8780-4a~data=20.12.244.197_4249615_free_160~hmac=432f07d594472fedf332fedc380ec54909b231e611a86a012c37d879e3bb5e33&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    }
+}
