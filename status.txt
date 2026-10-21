@@ -1,5 +1,5 @@
-🟢 Success: ICC CWC Challenge League A 2026 Kenya Denmark
-🟢 Success: ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Zambia Nigeria
-🟢 Success: ATP 250 Almaty Open 2026 Day 3 World Feed Almaty, Kazakhstan
-🟢 Success: ATP 250 BNP Paribas Fortis European Open Day 3 World Feed Brussels, Belgium
-🟢 Success: ATP 250 Grand Prix Auvergne Rhone Alpes 2026 Day 3 World Feed Lyon, France
+🔴 Skipped (No Master Link): ICC CWC Challenge League A 2026 Kenya Denmark
+🔴 Skipped (No Master Link): ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Zambia Nigeria
+🔴 Skipped (No Master Link): ATP 250 Almaty Open 2026 Day 3 World Feed Almaty, Kazakhstan
+🔴 Skipped (No Master Link): ATP 250 BNP Paribas Fortis European Open Day 3 World Feed Brussels, Belgium
+🔴 Skipped (No Master Link): ATP 250 Grand Prix Auvergne Rhone Alpes 2026 Day 3 World Feed Lyon, France
