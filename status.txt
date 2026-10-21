@@ -1,5 +1,5 @@
-🔴 Skipped (No Master Link): ICC CWC Challenge League A 2026 Kenya Denmark
-🔴 Skipped (No Master Link): ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Mozambique Gambia
-🔴 Skipped (No Master Link): ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Lesotho Uganda
-🔴 Skipped (No Master Link): ATP 250 Almaty Open 2026 Day 3 World Feed Almaty, Kazakhstan
+🟢 Success: ICC CWC Challenge League A 2026 Kenya Denmark
+🟢 Success: ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Mozambique Gambia
+🟢 Success: ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Lesotho Uganda
+🟢 Success: ATP 250 Almaty Open 2026 Day 3 World Feed Almaty, Kazakhstan
 🟢 Success: ATP 250 BNP Paribas Fortis European Open Day 3 World Feed Brussels, Belgium
