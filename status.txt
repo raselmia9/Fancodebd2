@@ -1,2 +1,2 @@
-🔴 Skipped (No Master Link): GRAND PRIX OF AUSTRALIA 2026 Race Day Phillip Island
-🔴 Skipped (No Master Link): F1 ACADEMY AUSTIN 2026 Reverse Grid Race Austin
+🟢 Success: GRAND PRIX OF AUSTRALIA 2026 Race Day Phillip Island
+🟢 Success: F1 ACADEMY AUSTIN 2026 Reverse Grid Race Austin

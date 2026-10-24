@@ -1,1 +1,12 @@
-{}
+{
+    "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island": {
+        "title": "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Grand-Prix-of-Australiaold-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0dyYW5kLVByaXgtb2YtQXVzdHJhbGlhb2xkLW1hdGNoLWNhcmQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/index.m3u8?hdnea=exp=1792884771~acl=/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/*~SessionID=64.236.135.1_139980_fc-web_fe7009ea-ae46-42~data=64.236.135.1_139980_free_160~hmac=6d2137c502f87a827dc45436291272bf4fc4b83b5ad8fde1159963307fc0b099&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "F1_ACADEMY_AUSTIN_2026_Reverse_Grid_Race_Austin": {
+        "title": "F1_ACADEMY_AUSTIN_2026_Reverse_Grid_Race_Austin",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2_Canada_web_1792770153782.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyX0NhbmFkYV93ZWJfMTc5Mjc3MDE1Mzc4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139698_english_hls_abbdda98e451175_1ta-di_h264/index.m3u8?hdnea=exp=1792884783~acl=/mumbai/139698_english_hls_abbdda98e451175_1ta-di_h264/*~SessionID=64.236.135.1_139698_fc-web_94614e50-f957-49~data=64.236.135.1_139698_free_160~hmac=3a4310d8e9c2a6882e3c959e4690de8c0d725f116fb2823e769c61914b82921b&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    }
+}
