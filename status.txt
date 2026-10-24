@@ -2,6 +2,6 @@
 🟢 Success: ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Gambia Zambia
 🟢 Success: ICC Men's T20 WC Africa Sub regional Qualifier C, 2026 Lesotho Nigeria
 🟢 Success: EFL Championship 2026 27 Preston North End F.C. West Bromwich Albion F.C.
-🟢 Success: Barclays Women's Super League 2026 27 Tottenham Hotspur Women Arsenal Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Tottenham Hotspur Women Arsenal Women
 🟢 Success: ATP 250 Grand Prix Auvergne Rhone Alpes 2026 World Feed Lyon, France
 🟢 Success: ATP 250 BNP Paribas Fortis European Open Day 6 World Feed Brussels, Belgium
