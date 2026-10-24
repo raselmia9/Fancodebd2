@@ -1,7 +1,12 @@
 {
+    "F1_MSC_CRUISES_UNITED_STATES_GRAND_PRIX_2026_Qualifying_Circuit_of_the_Americas": {
+        "title": "F1_MSC_CRUISES_UNITED_STATES_GRAND_PRIX_2026_Qualifying_Circuit_of_the_Americas",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Old_Match_Card1.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL09sZF9NYXRjaF9DYXJkMS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139505_english_hls_8c53cea9f217743_1ta-di_h264/index.m3u8?hdnea=exp=1792879966~acl=/delhi/139505_english_hls_8c53cea9f217743_1ta-di_h264/*~SessionID=128.203.190.112_139505_fc-web_f265f4ea-36ce-46~data=128.203.190.112_139505_free_160~hmac=906541ac0383acbe7a45d9c915e1b70cc59e14925e0cc03305703bf4b0486032&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
     "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island": {
         "title": "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Grand-Prix-of-Australiaold-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0dyYW5kLVByaXgtb2YtQXVzdHJhbGlhb2xkLW1hdGNoLWNhcmQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/index.m3u8?hdnea=exp=1792879852~acl=/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/*~SessionID=130.131.231.48_139980_fc-web_98979603-d2ef-46~data=130.131.231.48_139980_free_160~hmac=4884e36e690aa300ba862d8835680411b4b880a95d1eb60b49b4ed197ab9cf17&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/index.m3u8?hdnea=exp=1792879979~acl=/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/*~SessionID=128.203.190.112_139980_fc-web_330d1b92-b1bc-4e~data=128.203.190.112_139980_free_160~hmac=7fc26aa502014ce70110fb8ac481cf9542bdc9a0818f1004dae554cd4e7d9265&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
