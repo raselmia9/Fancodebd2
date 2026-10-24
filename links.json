@@ -2,6 +2,11 @@
     "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island": {
         "title": "GRAND_PRIX_OF_AUSTRALIA_2026_Race_Day_Phillip_Island",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Grand-Prix-of-Australiaold-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0dyYW5kLVByaXgtb2YtQXVzdHJhbGlhb2xkLW1hdGNoLWNhcmQucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/index.m3u8?hdnea=exp=1792882113~acl=/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/*~SessionID=20.169.65.212_139980_fc-web_40041024-7ba2-4d~data=20.169.65.212_139980_free_160~hmac=120fef390ef3c637c473c2a843abdb98874e7bf76d044cea4919915be0d4b50c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/index.m3u8?hdnea=exp=1792882234~acl=/delhi/139980_english_hls_4fd0f7b58678330_1ta-di_h264/*~SessionID=52.159.247.178_139980_fc-web_a0994754-c76d-44~data=52.159.247.178_139980_free_160~hmac=6275abbc5da0c572d918d5a9d8ab7fb390906a79e3d5ed57905605d4e1ec3070&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "F1_ACADEMY_AUSTIN_2026_Reverse_Grid_Race_Austin": {
+        "title": "F1_ACADEMY_AUSTIN_2026_Reverse_Grid_Race_Austin",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2_Canada_web_1792770153782.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyX0NhbmFkYV93ZWJfMTc5Mjc3MDE1Mzc4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139698_english_hls_abbdda98e451175_1ta-di_h264/index.m3u8?hdnea=exp=1792882247~acl=/mumbai/139698_english_hls_abbdda98e451175_1ta-di_h264/*~SessionID=52.159.247.178_139698_fc-web_a2b2cf94-7ccb-4c~data=52.159.247.178_139698_free_160~hmac=3bac0717dfc3211878c0f3297e0a247295d65d53b4fbf95e0e304086c63dc6eb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
