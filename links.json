@@ -2,6 +2,11 @@
     "ATP_250_BNP_Paribas_Fortis_European_Open_Day_7_World_Feed_Brussels_Belgium": {
         "title": "ATP_250_BNP_Paribas_Fortis_European_Open_Day_7_World_Feed_Brussels_Belgium",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/BNP-Paribas-Fortis-European-Open_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0JOUC1QYXJpYmFzLUZvcnRpcy1FdXJvcGVhbi1PcGVuX2ZjLXdlYi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249627_english_hls_dac12fb2cd57196_1ta-di_h264/index.m3u8?hdnea=exp=1792946927~acl=/mumbai/4249627_english_hls_dac12fb2cd57196_1ta-di_h264/*~SessionID=20.127.215.177_4249627_fc-web_99a59884-e9de-4d~data=20.127.215.177_4249627_free_160~hmac=9c10d23d4bd954a2474d188095b344d7cc5a40b66dc90675461bdd14fca363fe&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249627_english_hls_dac12fb2cd57196_1ta-di_h264/index.m3u8?hdnea=exp=1792947033~acl=/mumbai/4249627_english_hls_dac12fb2cd57196_1ta-di_h264/*~SessionID=20.118.246.157_4249627_fc-web_f2ac7d1f-c000-4f~data=20.118.246.157_4249627_free_160~hmac=5eec9469535b7866ef0bd0d2142935ffdce856436bca7e7c323bc6d58ecb61b5&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "F1_ACADEMY_AUSTIN_2026_Feature_Race_Austin": {
+        "title": "F1_ACADEMY_AUSTIN_2026_Feature_Race_Austin",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/F2_Canada_web_1792770153782.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0YyX0NhbmFkYV93ZWJfMTc5Mjc3MDE1Mzc4Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/139699_english_hls_4c1723fd3850256_1ta-di_h264/index.m3u8?hdnea=exp=1792947046~acl=/mumbai/139699_english_hls_4c1723fd3850256_1ta-di_h264/*~SessionID=20.118.246.157_139699_fc-web_bd4fe815-e8ae-42~data=20.118.246.157_139699_free_160~hmac=df17d1b2cc47f2408b473a8461a89e3e78a544d238d656339d8331276c55540f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
