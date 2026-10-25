@@ -2,6 +2,11 @@
     "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands": {
         "title": "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/ICC-CWC-League_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0lDQy1DV0MtTGVhZ3VlX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/index.m3u8?hdnea=exp=1792909965~acl=/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/*~SessionID=52.188.86.144_4250516_fc-web_acbb7f3f-1ee1-4b~data=52.188.86.144_4250516_free_160~hmac=21d36c07dfa63c09422bf8a948334e74c10b2e301d4f12e5097a6d411353cac0&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/index.m3u8?hdnea=exp=1792910071~acl=/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/*~SessionID=4.242.197.83_4250516_fc-web_bfe2b004-5fa4-4b~data=4.242.197.83_4250516_free_160~hmac=f716bc0352dad0eb3a9e8f78ff56159cc7b572cddbcb6ec8fd84fc9ef995efda&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ICC_CWC_Challenge_League_A_2026_Jersey_Kenya": {
+        "title": "ICC_CWC_Challenge_League_A_2026_Jersey_Kenya",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/index.m3u8?hdnea=exp=1792910084~acl=/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/*~SessionID=4.242.197.83_4250341_fc-web_a04089cc-71d2-49~data=4.242.197.83_4250341_free_160~hmac=44876d17d48c3a4c949b8dc62444c8805c6bc1e9a4bfc984fd405cbc56ab56ff&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
