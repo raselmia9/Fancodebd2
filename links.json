@@ -2,11 +2,16 @@
     "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands": {
         "title": "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/ICC-CWC-League_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0lDQy1DV0MtTGVhZ3VlX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/index.m3u8?hdnea=exp=1792910071~acl=/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/*~SessionID=4.242.197.83_4250516_fc-web_bfe2b004-5fa4-4b~data=4.242.197.83_4250516_free_160~hmac=f716bc0352dad0eb3a9e8f78ff56159cc7b572cddbcb6ec8fd84fc9ef995efda&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/index.m3u8?hdnea=exp=1792910190~acl=/mumbai/4250516_english_hls_794c5fa68798836_1ta-di_h264/*~SessionID=4.236.89.51_4250516_fc-web_219a1d8d-298f-4d~data=4.236.89.51_4250516_free_160~hmac=3683987fac4e5f5399148753bbeaba0fd320fc4123d339093b064c52f0cb9fe4&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ICC_CWC_Challenge_League_A_2026_Jersey_Kenya": {
         "title": "ICC_CWC_Challenge_League_A_2026_Jersey_Kenya",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/index.m3u8?hdnea=exp=1792910084~acl=/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/*~SessionID=4.242.197.83_4250341_fc-web_a04089cc-71d2-49~data=4.242.197.83_4250341_free_160~hmac=44876d17d48c3a4c949b8dc62444c8805c6bc1e9a4bfc984fd405cbc56ab56ff&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/index.m3u8?hdnea=exp=1792910202~acl=/mumbai/4250341_english_hls_c58feffa0698348_1ta-di_h264/*~SessionID=4.236.89.51_4250341_fc-web_ed7af8e6-b760-4d~data=4.236.89.51_4250341_free_160~hmac=dbb25add29605cb7da60b9b9376c8a735eae8ca7faf1d74d42cea513fab6a599&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ICC_CWC_Challenge_League_A_2026_Denmark_Papua_New_Guinea": {
+        "title": "ICC_CWC_Challenge_League_A_2026_Denmark_Papua_New_Guinea",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250342_english_hls_9a7010219d23415_1ta-di_h264/index.m3u8?hdnea=exp=1792910215~acl=/mumbai/4250342_english_hls_9a7010219d23415_1ta-di_h264/*~SessionID=4.236.89.51_4250342_fc-web_c08ef8e7-faef-49~data=4.236.89.51_4250342_free_160~hmac=b65975a342bc8a10292127b4dc531b90da5154b25c3a657b9d55ba093218688a&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
