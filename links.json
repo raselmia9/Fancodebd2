@@ -1,12 +1,7 @@
 {
-    "ATP_500_Erste_Bank_Open_2026_Centre_Court_Vienna_Austria": {
-        "title": "ATP_500_Erste_Bank_Open_2026_Centre_Court_Vienna_Austria",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Erste-Bank-Open_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0Vyc3RlLUJhbmstT3Blbl9XZWItbWF0Y2gtY2FyZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250545_english_hls_3f7621985c77750_1ta-di_h264/index.m3u8?hdnea=exp=1793049289~acl=/mumbai/4250545_english_hls_3f7621985c77750_1ta-di_h264/*~SessionID=4.242.195.251_4250545_fc-web_8ff88ee7-097f-45~data=4.242.195.251_4250545_free_160~hmac=2ed4a12e2734b518d77b49e13b6b8c7468f6ad6dd3180a4d5e5c2a8260c8a794&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
     "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_2_Basel_Switzerland": {
         "title": "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_2_Basel_Switzerland",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250546_english_hls_999c99ff213863_1ta-di_h264/index.m3u8?hdnea=exp=1793049301~acl=/mumbai/4250546_english_hls_999c99ff213863_1ta-di_h264/*~SessionID=4.242.195.251_4250546_fc-web_a3ce535e-219f-4c~data=4.242.195.251_4250546_free_160~hmac=c6d8f4a82dab8b66542cfbe1a2d9b9dc2f766099276b6fc941ed5514de206709&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250546_english_hls_999c99ff213863_1ta-di_h264/index.m3u8?hdnea=exp=1793049423~acl=/mumbai/4250546_english_hls_999c99ff213863_1ta-di_h264/*~SessionID=64.236.131.242_4250546_fc-web_8fa0cafa-adf3-43~data=64.236.131.242_4250546_free_160~hmac=6634fcaf907d7956944015f962c5b26adbfe587758309587bee6521210cd7cd6&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
