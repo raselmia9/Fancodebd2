@@ -1,37 +1,22 @@
 {
-    "Carabao_Cup_2026_27_Bournemouth_Aston_Villa": {
-        "title": "Carabao_Cup_2026_27_Bournemouth_Aston_Villa",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249714_53016_BOU_AVL_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk3MTRfNTMwMTZfQk9VX0FWTF9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249714_english_hls_2e4f8b22fb54805_1ta-di_h264/index.m3u8?hdnea=exp=1793224505~acl=/mumbai/4249714_english_hls_2e4f8b22fb54805_1ta-di_h264/*~SessionID=20.161.30.242_4249714_fc-web_448d75df-bc8e-41~data=20.161.30.242_4249714_free_160~hmac=6323276871a170221b931140e8d032955e0ff08535238d4a61721d20c7c24001&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "DFB_Pokal_2026_27_Bayer_04_Leverkusen_1_FC_N_rnberg": {
-        "title": "DFB_Pokal_2026_27_Bayer_04_Leverkusen_1_FC_N_rnberg",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249992_53043_LEV_NUR_FC-WEB.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk5OTJfNTMwNDNfTEVWX05VUl9GQy1XRUIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249992_english_hls_394d7b6cfa31968_1ta-di_h264/index.m3u8?hdnea=exp=1793224530~acl=/mumbai/4249992_english_hls_394d7b6cfa31968_1ta-di_h264/*~SessionID=20.161.30.242_4249992_fc-web_9a04eea7-b84c-4f~data=20.161.30.242_4249992_free_160~hmac=87d617cccbc03d6f2a6eeee91a535ea9aaf7911f130d643a800e2bf6a1710f56&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "DFB_Pokal_2026_27_FC_Bayern_Munich_1_FC_Magdeburg": {
-        "title": "DFB_Pokal_2026_27_FC_Bayern_Munich_1_FC_Magdeburg",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0ZDX1Nwb3J0c19EZWZhdWx0X0Zvb3RiYWxsLW9sZC1jb3B5LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249993_english_hls_7f603460f516651_1ta-di_h264/index.m3u8?hdnea=exp=1793224542~acl=/mumbai/4249993_english_hls_7f603460f516651_1ta-di_h264/*~SessionID=20.161.30.242_4249993_fc-web_b6029856-d746-45~data=20.161.30.242_4249993_free_160~hmac=79752b69fe512b52349619de828ece8ebc9f5289570be292fc70c185acbe292f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
     "UEFA_Women_s_Champions_League_2026_27_Arsenal_Women_Benfica_Women": {
         "title": "UEFA_Women_s_Champions_League_2026_27_Arsenal_Women_Benfica_Women",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249489_53078_ARS-W_BEN-W_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk0ODlfNTMwNzhfQVJTLVdfQkVOLVdfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249489_english_hls_1e1d7caf3540298_1ta-di_h264/index.m3u8?hdnea=exp=1793224555~acl=/mumbai/4249489_english_hls_1e1d7caf3540298_1ta-di_h264/*~SessionID=20.161.30.242_4249489_fc-web_a6f74714-a351-48~data=20.161.30.242_4249489_free_160~hmac=e29115b7cd7bad3e31b1de95d67081e29626ff8cff05cfbb8286082977071fa2&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249489_english_hls_1e1d7caf3540298_1ta-di_h264/index.m3u8?hdnea=exp=1793224718~acl=/mumbai/4249489_english_hls_1e1d7caf3540298_1ta-di_h264/*~SessionID=20.102.95.56_4249489_fc-web_047c6004-6484-43~data=20.102.95.56_4249489_free_160~hmac=1e3eddad5f3c9b5a240361da07c4685aeb06592b4cb416f6126750ff57a6d7de&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "UEFA_Women_s_Champions_League_2026_27_OL_Lyonnes_Inter_Women": {
         "title": "UEFA_Women_s_Champions_League_2026_27_OL_Lyonnes_Inter_Women",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249490_53078_OLY-W_INT-W_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk0OTBfNTMwNzhfT0xZLVdfSU5ULVdfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249490_english_hls_94def54aa747178_1ta-di_h264/index.m3u8?hdnea=exp=1793224567~acl=/mumbai/4249490_english_hls_94def54aa747178_1ta-di_h264/*~SessionID=20.161.30.242_4249490_fc-web_09c15fa1-5b1e-42~data=20.161.30.242_4249490_free_160~hmac=000d70dfb48a3c332b95ca8a5d970843b2aa4e7aa2f9dd4a5b23272506cbce00&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249490_english_hls_94def54aa747178_1ta-di_h264/index.m3u8?hdnea=exp=1793224731~acl=/mumbai/4249490_english_hls_94def54aa747178_1ta-di_h264/*~SessionID=20.102.95.56_4249490_fc-web_faf3868a-68cd-4d~data=20.102.95.56_4249490_free_160~hmac=ec91c21bcabd0256ca767bd2bb470a88639724d2b75c746791f20e70def8c25f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "Carabao_Cup_2026_27_Liverpool_Chelsea": {
         "title": "Carabao_Cup_2026_27_Liverpool_Chelsea",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249716_53016_LIV_CHE_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk3MTZfNTMwMTZfTElWX0NIRV9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249716_english_hls_dc760edd5a98262_1ta-di_h264/index.m3u8?hdnea=exp=1793224580~acl=/delhi/4249716_english_hls_dc760edd5a98262_1ta-di_h264/*~SessionID=20.161.30.242_4249716_fc-web_48423718-66f6-4d~data=20.161.30.242_4249716_free_160~hmac=6ef72dfa6015574cd1a18ff135a69cac603b420c5d5aad5052c93e367cbdd9c6&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/4249716_english_hls_dc760edd5a98262_1ta-di_h264/index.m3u8?hdnea=exp=1793224744~acl=/delhi/4249716_english_hls_dc760edd5a98262_1ta-di_h264/*~SessionID=20.102.95.56_4249716_fc-web_c15f8133-8d81-4c~data=20.102.95.56_4249716_free_160~hmac=a6fb0e6e46b22109cfb8be632e1839149167287670914b871df4f9bf8971fe3c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_500_Swiss_Indoors_Basel_2026_N_Djokovic_vs_U_Humbert_Basel_Switzerland": {
         "title": "ATP_500_Swiss_Indoors_Basel_2026_N_Djokovic_vs_U_Humbert_Basel_Switzerland",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Djo_WEB.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0Rqb19XRUIucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249644_english_hls_8d8e73c39974541_1ta-di_h264/index.m3u8?hdnea=exp=1793224593~acl=/mumbai/4249644_english_hls_8d8e73c39974541_1ta-di_h264/*~SessionID=20.161.30.242_4249644_fc-web_45b57491-fc9f-44~data=20.161.30.242_4249644_free_160~hmac=471d369cc7b3aa3c327dbe8c778f53958d70b2077186e8fab26412d9396fa796&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249644_english_hls_8d8e73c39974541_1ta-di_h264/index.m3u8?hdnea=exp=1793224756~acl=/mumbai/4249644_english_hls_8d8e73c39974541_1ta-di_h264/*~SessionID=20.102.95.56_4249644_fc-web_a7eacf19-2c77-4d~data=20.102.95.56_4249644_free_160~hmac=b75ee0e4ca09133da1301f391b657642811ee496ebfd22d04aae1ff478cb08e9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
