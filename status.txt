@@ -1,7 +1,7 @@
-🟢 Success: Carabao Cup 2026 27 Manchester City Brighton and Hove Albion
-🟢 Success: Carabao Cup 2026 27 Fulham Crystal Palace
+🔴 Skipped (No Master Link): Carabao Cup 2026 27 Manchester City Brighton and Hove Albion
+🔴 Skipped (No Master Link): Carabao Cup 2026 27 Fulham Crystal Palace
 🟢 Success: Carabao Cup 2026 27 Bournemouth Aston Villa
-🟢 Success: Carabao Cup 2026 27 Sunderland Brentford
+🔴 Skipped (No Master Link): Carabao Cup 2026 27 Sunderland Brentford
 🟢 Success: DFB Pokal 2026 27 Bayer 04 Leverkusen 1. FC Nürnberg
 🟢 Success: DFB Pokal 2026 27 FC Bayern Munich 1. FC Magdeburg
 🟢 Success: UEFA Women's Champions League 2026 27 Arsenal Women Benfica Women
