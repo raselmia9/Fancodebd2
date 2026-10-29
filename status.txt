@@ -3,5 +3,3 @@
 🟢 Success: UEFA Women's Champions League 2026 27 Manchester City Women Paris Saint Germain Women
 🟢 Success: ATP 500 Swiss Indoors Basel 2026 N. Djokovic vs J.L. Struff Basel, Switzerland
 🟢 Success: ATP 500 Swiss Indoors Basel 2026 IWB Court 1 Basel, Switzerland
-🟢 Success: ATP 500 Erste Bank Open 2026 A. Zverev vs T. Griekspoor Vienna, Austria
-🔴 Skipped (No Master Link): ATP 500 Erste Bank Open 2026 Glaubandich Court Vienna, Austria
