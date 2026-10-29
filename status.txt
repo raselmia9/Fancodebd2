@@ -4,4 +4,4 @@
 🟢 Success: ATP 500 Swiss Indoors Basel 2026 N. Djokovic vs J.L. Struff Basel, Switzerland
 🟢 Success: ATP 500 Swiss Indoors Basel 2026 IWB Court 1 Basel, Switzerland
 🟢 Success: ATP 500 Erste Bank Open 2026 A. Zverev vs T. Griekspoor Vienna, Austria
-🟢 Success: ATP 500 Erste Bank Open 2026 Glaubandich Court Vienna, Austria
+🔴 Skipped (No Master Link): ATP 500 Erste Bank Open 2026 Glaubandich Court Vienna, Austria
