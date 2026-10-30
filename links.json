@@ -2,11 +2,16 @@
     "ATP_500_Erste_Bank_Open_2026_Glaubandich_Court_Vienna_Austria": {
         "title": "ATP_500_Erste_Bank_Open_2026_Glaubandich_Court_Vienna_Austria",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Erste-Bank-Open_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0Vyc3RlLUJhbmstT3Blbl9XZWItbWF0Y2gtY2FyZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249639_english_hls_6794afdacb61694_1ta-di_h264/index.m3u8?hdnea=exp=1793374373~acl=/mumbai/4249639_english_hls_6794afdacb61694_1ta-di_h264/*~SessionID=52.161.201.81_4249639_fc-web_1b81e726-9ae0-41~data=52.161.201.81_4249639_free_160~hmac=73004840c8d21e8af74fbb872eb7b2f9ac6bab3efcbe83e83ffc38fdf2013700&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249639_english_hls_6794afdacb61694_1ta-di_h264/index.m3u8?hdnea=exp=1793374482~acl=/mumbai/4249639_english_hls_6794afdacb61694_1ta-di_h264/*~SessionID=64.236.153.81_4249639_fc-web_e604f1ff-2aa1-47~data=64.236.153.81_4249639_free_160~hmac=fd6556b5170fda61f85294ab191fd9eb96e3787bb5591b724a6d2d19cc7a827b&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_Basel_Switzerland": {
         "title": "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_Basel_Switzerland",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249646_english_hls_602e11646b22980_1ta-di_h264/index.m3u8?hdnea=exp=1793374386~acl=/mumbai/4249646_english_hls_602e11646b22980_1ta-di_h264/*~SessionID=52.161.201.81_4249646_fc-web_40ceb0ad-3791-42~data=52.161.201.81_4249646_free_160~hmac=ee49cf1df836423717418a5444af3eecf1ae3d42ec266d38779d0ba056629d10&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249646_english_hls_602e11646b22980_1ta-di_h264/index.m3u8?hdnea=exp=1793374494~acl=/mumbai/4249646_english_hls_602e11646b22980_1ta-di_h264/*~SessionID=64.236.153.81_4249646_fc-web_5db42e0f-d37a-44~data=64.236.153.81_4249646_free_160~hmac=ab6ab02539ad4cbc1f192bb425e57569e3c65e5211f66a8019d20b363be4ba55&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_500_Erste_Bank_Open_2026_C_Alcaraz_vs_T_Paul_Vienna_Austria": {
+        "title": "ATP_500_Erste_Bank_Open_2026_C_Alcaraz_vs_T_Paul_Vienna_Austria",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/IMG_6723.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0lNR182NzIzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249632_english_hls_5043c1251292601_1ta-di_h264/index.m3u8?hdnea=exp=1793374507~acl=/mumbai/4249632_english_hls_5043c1251292601_1ta-di_h264/*~SessionID=64.236.153.81_4249632_fc-web_7453c818-7345-45~data=64.236.153.81_4249632_free_160~hmac=1e5e46dfc02901cc2162c235a372e494fa644f069d5d1046f58bfad91d5620e9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
