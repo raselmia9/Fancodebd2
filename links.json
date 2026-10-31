@@ -1,27 +1,12 @@
 {
-    "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands": {
-        "title": "ICC_CWC_League_2_UAE_2026_United_Arab_Emirates_Netherlands",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/ICC-CWC-League_Web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0lDQy1DV0MtTGVhZ3VlX1dlYi1tYXRjaC1jYXJkLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250519_english_hls_52d639dd0845065_1ta-di_h264/index.m3u8?hdnea=exp=1793429914~acl=/mumbai/4250519_english_hls_52d639dd0845065_1ta-di_h264/*~SessionID=20.98.135.144_4250519_fc-web_b1a1126e-97b4-4f~data=20.98.135.144_4250519_free_160~hmac=82e726af43f0e260c8e92ab654e4a57d286df1e8e3d7baef2107c79d9cdca577&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
     "ICC_CWC_Challenge_League_A_2026_Kenya_Papua_New_Guinea": {
         "title": "ICC_CWC_Challenge_League_A_2026_Kenya_Papua_New_Guinea",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250349_english_hls_a784cd9b8693638_1ta-di_h264/index.m3u8?hdnea=exp=1793429926~acl=/mumbai/4250349_english_hls_a784cd9b8693638_1ta-di_h264/*~SessionID=20.98.135.144_4250349_fc-web_ee395448-c28e-46~data=20.98.135.144_4250349_free_160~hmac=540db9b5cc7fff8e4a8a9d56539c3e59a8eda356078d13d9c53997817049aca8&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250349_english_hls_a784cd9b8693638_1ta-di_h264/index.m3u8?hdnea=exp=1793430047~acl=/mumbai/4250349_english_hls_a784cd9b8693638_1ta-di_h264/*~SessionID=135.119.95.227_4250349_fc-web_6574cd6c-8bc0-4f~data=135.119.95.227_4250349_free_160~hmac=5eb7fca951124a6bf9e0e67cf7c7b610c01b2481e89ba5b43cf9654871e24a35&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "ICC_CWC_Challenge_League_A_2026_Qatar_Jersey": {
         "title": "ICC_CWC_Challenge_League_A_2026_Qatar_Jersey",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Cricket_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL0NyaWNrZXRfRkMtV2UucG5nIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250350_english_hls_b54e08c6d873024_1ta-di_h264/index.m3u8?hdnea=exp=1793429939~acl=/mumbai/4250350_english_hls_b54e08c6d873024_1ta-di_h264/*~SessionID=20.98.135.144_4250350_fc-web_5ab266fb-eb6e-43~data=20.98.135.144_4250350_free_160~hmac=6908dbb5a3c0dbefc81da8f56d9f4333acb9006efe85e140462d8927705ac4ae&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "PETRONAS_GRAND_PRIX_OF_MALAYSIA_2026_Day_2_Sepang": {
-        "title": "PETRONAS_GRAND_PRIX_OF_MALAYSIA_2026_Day_2_Sepang",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Petronas-Grand-Prix-of-Malaysia_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1BldHJvbmFzLUdyYW5kLVByaXgtb2YtTWFsYXlzaWFfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139982_english_hls_db06becffb70182_1ta-di_h264/index.m3u8?hdnea=exp=1793429952~acl=/delhi/139982_english_hls_db06becffb70182_1ta-di_h264/*~SessionID=20.98.135.144_139982_fc-web_02a441e0-7801-4d~data=20.98.135.144_139982_free_160~hmac=a1b9bbb75d44551120cab942d0cde960f8d9d00a9f3f25a95facd557eb3781d2&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
-    "A_League_2026_27_Melbourne_City_Sydney_FC": {
-        "title": "A_League_2026_27_Melbourne_City_Sydney_FC",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249848_53101_MLC_SYD_fc-Web_1792223293984.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NDhfNTMxMDFfTUxDX1NZRF9mYy1XZWJfMTc5MjIyMzI5Mzk4NC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249848_english_hls_92b3aaec3c95357_1ta-di_h264/index.m3u8?hdnea=exp=1793429965~acl=/mumbai/4249848_english_hls_92b3aaec3c95357_1ta-di_h264/*~SessionID=20.98.135.144_4249848_fc-web_b3d05dc4-b78d-41~data=20.98.135.144_4249848_free_160~hmac=e105c0048bb5fbe987e36d728fdb30212504453e3e867b86f4bcc452e2bfa67c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250350_english_hls_b54e08c6d873024_1ta-di_h264/index.m3u8?hdnea=exp=1793430060~acl=/mumbai/4250350_english_hls_b54e08c6d873024_1ta-di_h264/*~SessionID=135.119.95.227_4250350_fc-web_5ee964a4-a6b6-4f~data=135.119.95.227_4250350_free_160~hmac=2c60afdf03ad9bd4b1e0a99a180267caa7fdd18ab1111acd61e0d1f34756544f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
