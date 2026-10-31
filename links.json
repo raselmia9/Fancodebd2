@@ -2,6 +2,16 @@
     "EFL_Championship_2026_27_Millwall_F_C_Derby_County_Football_Club": {
         "title": "EFL_Championship_2026_27_Millwall_F_C_Derby_County_Football_Club",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249602_52993_MLW_DER_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk2MDJfNTI5OTNfTUxXX0RFUl9mYy13ZWIuanBnIiwiZWRpdHMiOnsicmVzaXplIjp7ImZpdCI6ImNvdmVyIiwicG9zaXRpb24iOiJ0b3AiLCJ3aWR0aCI6MzUyLCJoZWlnaHQiOjE4MH0sIndlYnAiOnsicXVhbGl0eSI6NjAsImxvc3NsZXNzIjpmYWxzZX19LCJvdXRwdXRGb3JtYXQiOiJ3ZWJwIn0=",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249602_english_hls_591c2d97c077208_1ta-di_h264/index.m3u8?hdnea=exp=1793463397~acl=/mumbai/4249602_english_hls_591c2d97c077208_1ta-di_h264/*~SessionID=20.98.142.49_4249602_fc-web_051e2bf3-1c15-46~data=20.98.142.49_4249602_free_160~hmac=c734df5b120f7d88aa421d8fbac4e673ae88e510dfaa97d202accab432987ed1&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249602_english_hls_591c2d97c077208_1ta-di_h264/index.m3u8?hdnea=exp=1793463523~acl=/mumbai/4249602_english_hls_591c2d97c077208_1ta-di_h264/*~SessionID=158.23.190.70_4249602_fc-web_70f0f5e8-b9ef-4f~data=158.23.190.70_4249602_free_160~hmac=04837921c5ed8317daf5f338d49fbcd0e453b7e6c9af1a7742609518190ff9c5&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_500_Erste_Bank_Open_2026_A_Zverev_vs_A_de_Minaur_Vienna_Austria": {
+        "title": "ATP_500_Erste_Bank_Open_2026_A_Zverev_vs_A_de_Minaur_Vienna_Austria",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Zverev-vs-Alex-de-Minaur-web-match-card.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1p2ZXJldi12cy1BbGV4LWRlLU1pbmF1ci13ZWItbWF0Y2gtY2FyZC5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249640_english_hls_4f90393d7175429_1ta-di_h264/index.m3u8?hdnea=exp=1793463536~acl=/mumbai/4249640_english_hls_4f90393d7175429_1ta-di_h264/*~SessionID=158.23.190.70_4249640_fc-web_8e823022-784e-42~data=158.23.190.70_4249640_free_160~hmac=8225f80f5b5e9e9769fdab9f3a9c023cb11e61153f5d9108281adfe5a58d406f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_Basel_Switzerland": {
+        "title": "ATP_500_Swiss_Indoors_Basel_2026_World_Feed_Basel_Switzerland",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Tennis_FC-We.png?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1Rlbm5pc19GQy1XZS5wbmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249647_english_hls_82c688241f54573_1ta-di_h264/index.m3u8?hdnea=exp=1793463549~acl=/mumbai/4249647_english_hls_82c688241f54573_1ta-di_h264/*~SessionID=158.23.190.70_4249647_fc-web_0554eaf4-047d-49~data=158.23.190.70_4249647_free_160~hmac=4d00d5bece0bca2d755ea8a7d4888b6c601d3e36d3e6bb1a81f24c6c779554c7&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
