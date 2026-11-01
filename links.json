@@ -2,6 +2,11 @@
     "PETRONAS_GRAND_PRIX_OF_MALAYSIA_2026_Race_Day_Sepang": {
         "title": "PETRONAS_GRAND_PRIX_OF_MALAYSIA_2026_Race_Day_Sepang",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Petronas-Grand-Prix-of-Malaysia_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1BldHJvbmFzLUdyYW5kLVByaXgtb2YtTWFsYXlzaWFfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/delhi/139983_english_hls_919a9f8e194791_1ta-di_h264/index.m3u8?hdnea=exp=1793519439~acl=/delhi/139983_english_hls_919a9f8e194791_1ta-di_h264/*~SessionID=51.57.86.130_139983_fc-web_70e9c2fb-4174-4f~data=51.57.86.130_139983_free_160~hmac=77ec2f1c19dbc2c9f2c3e79cbe05cd712735131d6da51323993f7da339b65a22&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/delhi/139983_english_hls_919a9f8e194791_1ta-di_h264/index.m3u8?hdnea=exp=1793519563~acl=/delhi/139983_english_hls_919a9f8e194791_1ta-di_h264/*~SessionID=172.169.236.176_139983_fc-web_f6d45ea1-b157-47~data=172.169.236.176_139983_free_160~hmac=1cb076ca6e3878e26671548418471d1de6f4430b1aed5f776fc7e79d0c1412eb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "A_League_2026_27_Perth_Glory_Adelaide_United": {
+        "title": "A_League_2026_27_Perth_Glory_Adelaide_United",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249851_53101_PG_ADL_fc-Web_1792223292274.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NTFfNTMxMDFfUEdfQURMX2ZjLVdlYl8xNzkyMjIzMjkyMjc0LmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249851_english_hls_89931009c28222_1ta-di_h264/index.m3u8?hdnea=exp=1793519576~acl=/mumbai/4249851_english_hls_89931009c28222_1ta-di_h264/*~SessionID=172.169.236.176_4249851_fc-web_2d7c3139-4cbe-45~data=172.169.236.176_4249851_free_160~hmac=29d8b7018a7d932ad06f3bd4b4784a3b5a20ed384a33cea3b3fa62db7fe34290&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
