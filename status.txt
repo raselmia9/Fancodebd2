@@ -1,9 +1,7 @@
-🟢 Success: Barclays Women's Super League 2026 27 Arsenal Women Aston Villa Women
-🟢 Success: Barclays Women's Super League 2026 27 London City Lionesses Manchester City Women
+🔴 Skipped (No Master Link): Barclays Women's Super League 2026 27 Arsenal Women Aston Villa Women
 🟢 Success: Barclays Women's Super League 2026 27 Birmingham City F.C. Women Tottenham Hotspur Women
 🟢 Success: Barclays Women's Super League 2026 27 Brighton and Hove Albion Women Crystal Palace Women
 🟢 Success: Barclays Women's Super League 2026 27 West Ham United Women Liverpool Women
 🟢 Success: Barclays Women's Super League 2026 27 Charlton Athletic F.C Women Chelsea F.C. Women
-🔴 Skipped (No Master Link): ATP 500 Swiss Indoors Basel 2026 Doubles Final Basel, Switzerland
 🟢 Success: ATP 500 Erste Bank Open 2026 Final: A. de Minaur vs C. Alcaraz Vienna, Austria
 🟢 Success: ATP 500 Swiss Indoors Basel 2026 Final: J Lehecka vs V Vacherot Basel, Switzerland
