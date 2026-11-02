@@ -1,12 +1,7 @@
 {
-    "ATP_Masters_Rolex_Paris_Masters_2026_World_Feed_Paris_France": {
-        "title": "ATP_Masters_Rolex_Paris_Masters_2026_World_Feed_Paris_France",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1JvbGV4LVBhcmlzLU1hc3RlcnNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250549_english_hls_cd610edfc088949_1ta-di_h264/index.m3u8?hdnea=exp=1793655881~acl=/mumbai/4250549_english_hls_cd610edfc088949_1ta-di_h264/*~SessionID=64.236.169.134_4250549_fc-web_df4d3155-9714-41~data=64.236.169.134_4250549_free_160~hmac=00679a88ca5498596f08b7328251763a0112ae46004de42fa31eb0aa012570af&deviceId=undefined&advertiserId=undefined&ft_type=c1"
-    },
     "ATP_Masters_Rolex_Paris_Masters_2026_Court_Central_Paris_France": {
         "title": "ATP_Masters_Rolex_Paris_Masters_2026_Court_Central_Paris_France",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1JvbGV4LVBhcmlzLU1hc3RlcnNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250550_english_hls_af88dc9fb09822_1ta-di_h264/index.m3u8?hdnea=exp=1793655893~acl=/mumbai/4250550_english_hls_af88dc9fb09822_1ta-di_h264/*~SessionID=64.236.169.134_4250550_fc-web_41888fc8-a032-47~data=64.236.169.134_4250550_free_160~hmac=0d7a53e49e8f6bc32e800cfbbb5e9a7480a4804d550ec16c5525dd8b21f5904e&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250550_english_hls_af88dc9fb09822_1ta-di_h264/index.m3u8?hdnea=exp=1793656011~acl=/mumbai/4250550_english_hls_af88dc9fb09822_1ta-di_h264/*~SessionID=52.40.23.199_4250550_fc-web_96602054-c505-47~data=52.40.23.199_4250550_free_160~hmac=10d8bc0e3faab54d7195327843bf81524adff43d17d0798bc19eb6954682e580&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
