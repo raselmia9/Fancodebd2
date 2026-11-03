@@ -1,5 +1,5 @@
-🔴 Skipped (No Master Link): ATP Masters Rolex Paris Masters 2026 Court 1 Paris, France
-🔴 Skipped (No Master Link): ATP Masters Rolex Paris Masters 2026 World Feed Paris, France
-🔴 Skipped (No Master Link): ATP Masters Rolex Paris Masters 2026 Court 2 Paris, France
+🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 1 Paris, France
+🟢 Success: ATP Masters Rolex Paris Masters 2026 World Feed Paris, France
+🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 2 Paris, France
 🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 3 Paris, France
 🟢 Success: ATP Masters Rolex Paris Masters 2026 Court Central Paris, France
