@@ -1,1 +1,17 @@
-{}
+{
+    "ATP_Masters_Rolex_Paris_Masters_2026_Court_1_Paris_France": {
+        "title": "ATP_Masters_Rolex_Paris_Masters_2026_Court_1_Paris_France",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1JvbGV4LVBhcmlzLU1hc3RlcnNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250551_english_hls_f43aad1fa760894_1ta-di_h264/index.m3u8?hdnea=exp=1793699566~acl=/mumbai/4250551_english_hls_f43aad1fa760894_1ta-di_h264/*~SessionID=64.236.135.114_4250551_fc-web_824ce7a6-e479-44~data=64.236.135.114_4250551_free_160~hmac=e029d2efe0959f9f51cf963ed311e248d08c2868aeafefb470fe7d777e64e3c9&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_Masters_Rolex_Paris_Masters_2026_World_Feed_Paris_France": {
+        "title": "ATP_Masters_Rolex_Paris_Masters_2026_World_Feed_Paris_France",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1JvbGV4LVBhcmlzLU1hc3RlcnNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250552_english_hls_0f67fd0f6498945_1ta-di_h264/index.m3u8?hdnea=exp=1793699579~acl=/mumbai/4250552_english_hls_0f67fd0f6498945_1ta-di_h264/*~SessionID=64.236.135.114_4250552_fc-web_63ead843-c983-43~data=64.236.135.114_4250552_free_160~hmac=1350cc566614eb0ed3f86f5ee3c26d80b4d6f5b834f92f87401d6bcfc020aa6f&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "ATP_Masters_Rolex_Paris_Masters_2026_Court_2_Paris_France": {
+        "title": "ATP_Masters_Rolex_Paris_Masters_2026_Court_2_Paris_France",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/Rolex-Paris-Masters_fc-web.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhL1JvbGV4LVBhcmlzLU1hc3RlcnNfZmMtd2ViLmpwZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJmaXQiOiJjb3ZlciIsInBvc2l0aW9uIjoidG9wIiwid2lkdGgiOjM1MiwiaGVpZ2h0IjoxODB9LCJ3ZWJwIjp7InF1YWxpdHkiOjYwLCJsb3NzbGVzcyI6ZmFsc2V9fSwib3V0cHV0Rm9ybWF0Ijoid2VicCJ9",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4250554_english_hls_6b1499b9d656750_1ta-di_h264/index.m3u8?hdnea=exp=1793699592~acl=/mumbai/4250554_english_hls_6b1499b9d656750_1ta-di_h264/*~SessionID=64.236.135.114_4250554_fc-web_e5e56952-d2aa-42~data=64.236.135.114_4250554_free_160~hmac=b838d50f0b47aeac9581306d12aceabb1ce168fdb443454fb8e2f1d6da8b07ab&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    }
+}
