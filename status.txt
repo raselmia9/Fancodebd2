@@ -1,5 +1,5 @@
 🟢 Success: ICC CWC League 2 UAE, 2026 United Arab Emirates Oman
 🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 2 Paris, France
-🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 1 Paris, France
+🔴 Skipped (No Master Link): ATP Masters Rolex Paris Masters 2026 Court 1 Paris, France
 🟢 Success: ATP Masters Rolex Paris Masters 2026 World Feed Paris, France
 🟢 Success: ATP Masters Rolex Paris Masters 2026 Court 3 Paris, France
