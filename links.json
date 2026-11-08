@@ -1,12 +1,12 @@
 {
     "A_League_2026_27_Macarthur_Brisbane_Roar": {
         "title": "A_League_2026_27_Macarthur_Brisbane_Roar",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249856_53101_MAC_BRB_fc-Web_1792223292092.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NTZfNTMxMDFfTUFDX0JSQl9mYy1XZWJfMTc5MjIyMzI5MjA5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/index.m3u8?hdnea=exp=1794119570~acl=/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/*~SessionID=172.203.196.177_4249856_fc-web_2626d9cf-15e5-4a~data=172.203.196.177_4249856_free_160~hmac=8374503ae9fca77031f2e5716de7514e99766b0b047d74cb20bf2fd827984b6d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249856_53101_MAC_BRB_fc-Web_1792223292092.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/index.m3u8?hdnea=exp=1794119680~acl=/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/*~SessionID=172.208.154.6_4249856_fc-web_d6f644f7-bf16-43~data=172.208.154.6_4249856_free_160~hmac=c4d634b9fc18227333d1e032d616ed0731bf7f6c50f722b85a9041935e872d8e&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     },
     "A_League_2026_27_Adelaide_United_Melbourne_Victory": {
         "title": "A_League_2026_27_Adelaide_United_Melbourne_Victory",
-        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249857_53101_ADL_MLV_fc-Web_1792223292214.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NTdfNTMxMDFfQURMX01MVl9mYy1XZWJfMTc5MjIyMzI5MjIxNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/index.m3u8?hdnea=exp=1794119583~acl=/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/*~SessionID=172.203.196.177_4249857_fc-web_a71e6fe6-e9c2-44~data=172.203.196.177_4249857_free_160~hmac=f0181808bc508735dd7de1aca33685f7612f04b394eecdbd66a10360267e802d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "logo": "https://www.fancode.com/skillup-uploads/cms-media/4249857_53101_ADL_MLV_fc-Web_1792223292214.jpg",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/index.m3u8?hdnea=exp=1794119693~acl=/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/*~SessionID=172.208.154.6_4249857_fc-web_8e464ca0-a1b1-43~data=172.208.154.6_4249857_free_160~hmac=72103df243d864c9e6bfde77989df77370bc38bc1cb1a51009ad9e8beac5936d&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
