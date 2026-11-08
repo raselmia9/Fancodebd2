@@ -2,6 +2,11 @@
     "A_League_2026_27_Macarthur_Brisbane_Roar": {
         "title": "A_League_2026_27_Macarthur_Brisbane_Roar",
         "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249856_53101_MAC_BRB_fc-Web_1792223292092.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NTZfNTMxMDFfTUFDX0JSQl9mYy1XZWJfMTc5MjIyMzI5MjA5Mi5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
-        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/index.m3u8?hdnea=exp=1794116800~acl=/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/*~SessionID=4.155.237.5_4249856_fc-web_bc8c8f75-5c58-40~data=4.155.237.5_4249856_free_160~hmac=3b5be09d99ed9d0080aa6a16ccb208fd7de262a554b0d1ca11a8d6512db90deb&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/index.m3u8?hdnea=exp=1794116919~acl=/mumbai/4249856_english_hls_7a8447ae0257481_1ta-di_h264/*~SessionID=20.169.74.56_4249856_fc-web_18e40636-006f-47~data=20.169.74.56_4249856_free_160~hmac=f15ac7d6187042772e8f47e06d4b2baea6971b9af58975be10e529fea9f3b62c&deviceId=undefined&advertiserId=undefined&ft_type=c1"
+    },
+    "A_League_2026_27_Adelaide_United_Melbourne_Victory": {
+        "title": "A_League_2026_27_Adelaide_United_Melbourne_Victory",
+        "logo": "https://images.fancode.com/skillup-uploads/cms-media/4249857_53101_ADL_MLV_fc-Web_1792223292214.jpg?hash=eyJrZXkiOiJza2lsbHVwLXVwbG9hZHMvY21zLW1lZGlhLzQyNDk4NTdfNTMxMDFfQURMX01MVl9mYy1XZWJfMTc5MjIyMzI5MjIxNC5qcGciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY292ZXIiLCJwb3NpdGlvbiI6InRvcCIsIndpZHRoIjozNTIsImhlaWdodCI6MTgwfSwid2VicCI6eyJxdWFsaXR5Ijo2MCwibG9zc2xlc3MiOmZhbHNlfX0sIm91dHB1dEZvcm1hdCI6IndlYnAifQ==",
+        "master_link": "https://bd-mc-flive.fancode.com/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/index.m3u8?hdnea=exp=1794116931~acl=/mumbai/4249857_english_hls_1454cf2a3667224_1ta-di_h264/*~SessionID=20.169.74.56_4249857_fc-web_5847eb95-5bfb-41~data=20.169.74.56_4249857_free_160~hmac=1ff7d4b6be2824cbc93355412e16fc30a53c00cef6140e9514fe1fc24741dcf7&deviceId=undefined&advertiserId=undefined&ft_type=c1"
     }
 }
